@@ -125,8 +125,3 @@ Ctrl + (Minus) -
 
 ## All Excel Shortcuts
 https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f
-
-
-## References
-
-## Excel Operations From Keyboard Shortcuts
