@@ -2,26 +2,7 @@
 
 
 
-This post answers, "How can I connect to my Windows machine from inside my Linux VM?" It uses a "reverse SSH tunnel." This is useful when the VM is "behind a NAT."
-
-## Index
-
-1.  [<u><span>Start Windows PowerShell (Admin)</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-eo46i159741)
-    
-2.  [<u><span>Start sshd on Windows</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-ejgwn124919)
-    
-3.  [<u><span>Make sure sshd is running on Windows</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-j4jzt119804)
-    
-1.  [<u><span>Create a reverse tunnel from the Windows machine to the VM</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-j2yrv192615)
-    
-2.  [<u><span>Figure out my Windows username</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-tiqij124693)
-    
-3.  [<u><span>Connect to the Windows machine from the VM</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-ippoi109755)
-    
-1.  [<u><span>Stop sshd on Windows</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-d87jf177727)
-    
-2.  [<u><span>Uninstall sshd on Windows</span></u>](https://www.centennialsoftwaresolutions.com/post/how-can-i-connect-to-my-windows-machine-from-inside-my-linux-vm#viewer-948t1145857)
-    
+This post answers, "How can I connect to my Windows machine from inside my Linux VM?" It uses a "reverse SSH tunnel." This is useful when the VM is "behind a NAT."    
 
 ## Prerequisites
 
