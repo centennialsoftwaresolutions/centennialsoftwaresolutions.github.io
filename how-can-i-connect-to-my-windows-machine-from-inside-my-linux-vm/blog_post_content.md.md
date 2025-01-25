@@ -6,6 +6,8 @@ This post answers, "How can I connect to my Windows machine from inside my Linux
 
 ## Prerequisites
 
+The post assumes you've completed https://www.centennialsoftwaresolutions.com/post/how-can-i-open-a-terminal-to-a-linux-vm-from-windows . 
+
 ## Install sshd on Windows
 
 ## 1\. Start Windows PowerShell (Admin)
@@ -31,6 +33,13 @@ RestartNeeded : False
 ## 2\. Start sshd on Windows
 
 From PowerShell (Admin):
+
+```
+
+Start-Service -Name sshd
+
+```
+
 
 ## 3\. Make sure sshd is running on Windows
 
@@ -65,16 +74,26 @@ ssh -R 2222:localhost:22 -i "C:\Users\Zach Pfeffer\.ssh\id_rsa_vm2" demouser@192
 From PowerShell or CMD:
 
 Output:
+```
+whoami
+```
+
 
 ```
-laptop-3mcnkkjo\</span><strong><span>zach pfeffer
+laptop-3mcnkkjo\zach pfeffer
 ```
 
 "zach pfeffer" is my user name.
 
 From PowerShell or CMD:
+```
+echo $env:USERNAME
+```
 
 Output:
+```
+Zach Pfeffer
+```
 
 "Zach Pfeffer" is my user name (both capitalizations will work).
 
@@ -99,6 +118,10 @@ SSH connections are made on **port 22 by default**, but the **\-p** option all
 ## 1\. Stop sshd on Windows
 
 From PowerShell (Admin):
+
+```
+Stop-Service -Name sshd
+```
 
 ## 2\. Uninstall sshd on Windows
 
