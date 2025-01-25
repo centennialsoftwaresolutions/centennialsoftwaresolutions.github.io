@@ -15,19 +15,17 @@ Win + x, a
 From PowerShell (Admin):
 
 ```
-<span><span>Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0 </span></span>
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0 
 ```
 
 Output:
 
 ```
-<span><span>
 
 Path          :
 Online        : True
 RestartNeeded : False
 
-</span></span>
 ```
 
 ## 2\. Start sshd on Windows
@@ -41,11 +39,10 @@ From PowerShell (Admin):
 Output
 
 ```
-<span><span>Status   Name               DisplayName
+Status   Name               DisplayName
 ------   ----               -----------
 Running  sshd               OpenSSH SSH Server
 
-</span></span>
 ```
 
 ## The Reverse Tunnel
@@ -55,7 +52,7 @@ Running  sshd               OpenSSH SSH Server
 From PowerShell or CMD:
 
 ```
-<span><span><span>ssh -R 2222:localhost:22 -i "C:\Users\Zach Pfeffer\.ssh\id_rsa_vm2" demouser@192.168.239.128</span></span></span>
+ssh -R 2222:localhost:22 -i "C:\Users\Zach Pfeffer\.ssh\id_rsa_vm2" demouser@192.168.239.128
 ```
 
 -   **2222** is the port on the **Windows machine** that will forward traffic.
@@ -70,7 +67,7 @@ From PowerShell or CMD:
 Output:
 
 ```
-<span><span>laptop-3mcnkkjo\</span><strong><span>zach pfeffer</span></strong></span>
+laptop-3mcnkkjo\</span><strong><span>zach pfeffer
 ```
 
 "zach pfeffer" is my user name.
@@ -86,13 +83,13 @@ Output:
 From VM:
 
 ```
-<span><span>ssh "zach pfeffer@localhost" -p 2222</span></span>
+ssh "zach pfeffer@localhost" -p 2222
 ```
 
 Or From VM:
 
 ```
-<span><span>ssh "Zach Pfeffer@localhost" -p 2222</span></span>
+ssh "Zach Pfeffer@localhost" -p 2222
 ```
 
 SSH connections are made on **port 22 by default**, but the **\-p** option allows you to connect to a different port if the SSH server is listening on one.
@@ -108,17 +105,16 @@ From PowerShell (Admin):
 From PowerShell (Admin):
 
 ```
-<span><span>Remove-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0</span></span>
+Remove-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 ```
 
 Output:
 
 ```
-<span><span>Path          :
+Path          :
 Online        : True
 RestartNeeded : True
 
-</span></span>
 ```
 
 Note: despite stopping service or uninstalling it, if you have an existing tunnel, it will remain established until you close down the tunnel or reboot your machine.
