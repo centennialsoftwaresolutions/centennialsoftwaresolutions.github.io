@@ -7,7 +7,8 @@ This post shows how to start and debug lmgrd and xilinxd. It explains commands t
 Start lmgrd and xilinxd with:
 
 ```
-~/tools/lin_flm_v11.17.2.0/lnx64.o/lmgrd -z -c- ~/licenses/ -l ~/license_log/license.log &
+~/tools/lin_flm_v11.17.2.0/lnx64.o/lmgrd -z -c-~/licenses/ -l
+~/license_log/license.log &
 ```
 
 -   Run lmgrd from the directory ~/tools/lin\_flm\_v11.17.2.0/lnx64.o/.
