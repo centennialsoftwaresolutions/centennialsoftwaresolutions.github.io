@@ -365,7 +365,7 @@ ssh-copy-id -i "C:/Users/Zach Pfeffer/.ssh/id_rsa_vm2.pub" demouser@192.168.239.
 From PowerShell:
 
 ```
-demouser@192.168.239.128
+ssh demouser@192.168.239.128
 ```
 
 From VM:
