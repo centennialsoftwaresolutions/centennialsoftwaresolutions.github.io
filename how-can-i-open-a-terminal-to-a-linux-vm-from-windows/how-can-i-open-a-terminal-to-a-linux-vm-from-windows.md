@@ -271,9 +271,7 @@ Example output:
        valid_lft forever preferred_lft forever
 ```
 
-<mark>
-Notice: ens33's IP address is 192.168.239.128/24
-<mark>
+**<mark>Notice: ens33's IP address is 192.168.239.128/24<mark>**
 
 ## 7\. Check host interface IP addresses in CMD or PowerShell
 
