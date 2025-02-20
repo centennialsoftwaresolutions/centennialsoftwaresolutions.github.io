@@ -96,15 +96,15 @@ From Table:  Available Speed Grades and Operating Voltages https://docs.xilinx.c
 
 <u>The XCVE2802-2MSEVSVH1760 Vivado Part # is xcve2802-vsvh1760-2MP-e-S (Vivado 2022.1)</u>
 
-![parts_9](C:\Users\gensh\Desktop\New folder\parts_9.png)
+![parts_9](parts_9.png)
 
-![parts_10](C:\Users\gensh\Desktop\New folder\parts_10.png)
+![parts_10](parts_10.png)
 
-![parts_11](C:\Users\gensh\Desktop\New folder\parts_11.png)
+![parts_11](parts_11.png)
 
-![parts_12](C:\Users\gensh\Desktop\New folder\parts_12.png)
+![parts_12](parts_12.png)
 
-![parts_13](C:\Users\gensh\Desktop\New folder\parts_13.png)
+![parts_13](parts_13.png)
 
 \=
 
