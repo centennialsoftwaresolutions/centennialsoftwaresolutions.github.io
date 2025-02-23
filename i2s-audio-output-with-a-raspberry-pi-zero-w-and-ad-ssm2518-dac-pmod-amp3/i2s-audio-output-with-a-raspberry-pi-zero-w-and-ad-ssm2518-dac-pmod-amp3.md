@@ -1,6 +1,6 @@
 # I2S audio output with a Raspberry Pi Zero W and AD SSM2518 DAC (PMOD AMP3)
 
-![fragments_sans_centennial_animated](C:\Users\gensh\Desktop\New folder\fragments_sans_centennial_animated.gif)
+![fragments_sans_centennial_animated](fragments_sans_centennial_animated.gif)
 
 ## Raspberry Pi Zero W and AD SSM2518 DAC
 
