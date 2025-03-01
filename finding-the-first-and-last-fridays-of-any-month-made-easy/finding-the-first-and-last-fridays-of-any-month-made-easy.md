@@ -1,4 +1,6 @@
-![Excel Logo](Finding%20the%20First%20and%20Last%20Fridays%20of%20Any%20Month%20Made%20Easy/3b5532_c277327c860e41b2a976406bb6c7b4ae~mv2.png)
+# "Finding the First and Last Fridays of Any Month Made Easy"
+
+![excel_logo](excel_logo.png)
 
 Ever needed to find the first or last Friday of a month in Excel? Look no further! In this post, we'll share two versatile formulas that do just that, and more. Whether you need the date of the first or last instance of any day in a given month, these functions have you covered. Let's get started!
 
@@ -7,7 +9,7 @@ Ever needed to find the first or last Friday of a month in Excel? Look no furthe
 Given a Date in **A1** and a String in **A2**: First Sun, First Mon, etc. Return the Date of the **First Instance** of That Day
 
 ```
-<span><span>=(EOMONTH(A1,-1) + 1) + SWITCH(
+=(EOMONTH(A1,-1) + 1) + SWITCH(
 
 WEEKDAY(EOMONTH(A1,-1)+1),
 
@@ -25,7 +27,7 @@ WEEKDAY(EOMONTH(A1,-1)+1),
 
 7, SWITCH(A2, "First Sun",1,   "First Mon",2,   "First Tue",3,   "First Wed",4,   "First Thu",5,   "First Fri",6,   "First Sat",0)
 
-)</span></span>
+)
 ```
 
 ###### Last Instance
@@ -33,7 +35,7 @@ WEEKDAY(EOMONTH(A1,-1)+1),
 Given a Date in **A1** and a String in **A2**: First Sun, First Mon, etc. Return the Date of the **Last Instance** of That Day
 
 ```
-<span><span> =(EOMONTH(A1,0)) + SWITCH(
+ =(EOMONTH(A1,0)) + SWITCH(
 
 WEEKDAY(EOMONTH(A1,0)),
 
@@ -50,10 +52,12 @@ WEEKDAY(EOMONTH(A1,0)),
 6, SWITCH(A2, "Last Sun", -5,   "Last Mon",-4,   "Last Tue", -3,   "Last Wed", -2,   "Last Thu", -1,   "Last Fri", 0,   "Last Sat",-6),
 
 7, SWITCH(A2, "Last Sun", -6,   "Last Mon",-5,   "Last Tue", -4,   "Last Wed", -3,   "Last Thu", -2,   "Last Fri", -1,   "Last Sat", 0)
-)</span></span>
+)
 ```
 
 ###### The Excel Workbook I Used to Develop and Test This
+
+https://docs.google.com/spreadsheets/d/1KLKINnWS_O47Rk7SA5hBstdEblnPbmu7/edit?usp=sharing&ouid=104422661029399872488&rtpof=true&sd=true 
 
 ###### References
 
