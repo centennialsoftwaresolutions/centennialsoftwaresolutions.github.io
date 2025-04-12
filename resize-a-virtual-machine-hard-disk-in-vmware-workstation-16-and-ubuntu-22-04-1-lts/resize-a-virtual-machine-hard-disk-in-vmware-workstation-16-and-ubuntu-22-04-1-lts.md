@@ -1,6 +1,6 @@
 # Resize a Virtual Machine Hard Disk in VMware Workstation 16 and Ubuntu 22.04.1 LTS
 
-![VMware_workstation_logo_1](C:VMware_workstation_logo_1.png)
+![VMware_workstation_logo_1](VMware_workstation_logo_1.png)
 
 This post shows step-by-step how to resize a Virtual Machine Hard Disk in VMware Workstation 16 and Ubuntu 22.04.1 LTS.
 
