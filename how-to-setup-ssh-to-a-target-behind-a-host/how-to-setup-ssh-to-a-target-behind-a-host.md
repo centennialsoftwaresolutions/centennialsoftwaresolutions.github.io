@@ -2,7 +2,7 @@
 
 ![OpenSSH_logo](OpenSSH_logo.gif)
 
-This post lists the commands to ssh to a target (<tgt>) behind a host (<hst>) from Linux (<lnx>). Its written as a reference. Replace <tgt>, <tgt-username>, <tgt-ip>, <hst>, <hst-username>, and <lnx> with your values.
+This post lists the commands to ssh to a target (\<tgt>) behind a host (<hst>) from Linux (<lnx>). Its written as a reference. Replace <tgt>, <tgt-username>, <tgt-ip>, <hst>, <hst-username>, and <lnx> with your values.
 
 **<u><span>Relevant Versions</span></u>**
 
