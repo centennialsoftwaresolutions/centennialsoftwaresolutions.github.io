@@ -1,3 +1,5 @@
+# Windows 10 File Search Examples
+
 ![windows_10_logo](windows_10_logo.png)
 
 This post lists Windows 10 search examples to help you find what you're looking for.
