@@ -48,7 +48,7 @@ Step 6: Click inside anyname and create a directory called **start**
 
 Step 6: Download a Zip file from [https://github.com/vim-airline/vim-airline](http://github.com/vim-airline/vim-airline) to 
 
-C:\Users\username\vimfiles\pack\anyname\start\
+***C:\Users\username\vimfiles\pack\anyname\start\***
 
 A) On [https://github.com/vim-airline/vim-airline](http://github.com/vim-airline/vim-airline) click Clone of download
 
