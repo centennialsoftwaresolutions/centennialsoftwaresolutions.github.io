@@ -1,6 +1,6 @@
 # Links to the I2C-bus Spec Version 2.1 & Xilinx's AXI IIC Bus Interface v2.0 LogiCORE IP
 
-![i2c _bus_logo](i2c _bus_logo.png)
+[i2c _bus_logo](i2c _bus_logo.png)
 
 This post lists links to the **Philips Semiconductors I2C-bus Specification, Version 2.1, January 2000** as referenced in **Xilinx's AXI IIC Bus Interface v2.0 LogiCORE IP Product Guide Vivado Design Suite PG090 October 5, 2016** and links to the Xilinx LogiCORE product guide. It was written
 
