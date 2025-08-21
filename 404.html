@@ -1,0 +1,28 @@
+<script>
+(function () {
+  // Respect baseurl if set
+  var base = '{{ site.baseurl | default: "" }}';
+  var path = window.location.pathname;
+
+  if (base && path.startsWith(base)) {
+    path = path.slice(base.length);
+  }
+
+  // Match /post/<slug> (optionally with trailing slash)
+  var m = path.match(/^\/post\/([^\/]+)\/?$/);
+  if (!m) return;
+
+  var slug = decodeURIComponent(m[1]);
+
+  fetch(base + '/pages.json')
+    .then(function (r) { return r.json(); })
+    .then(function (list) {
+      var match = list.find(function (p) { return p.slug === slug; });
+      if (match) {
+        // Redirect to the canonical URL
+        window.location.replace(base + match.url);
+      }
+    })
+    .catch(function () { /* silent fail => normal 404 */ });
+})();
+</script>
