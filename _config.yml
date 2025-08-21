@@ -4,4 +4,4 @@ plugins:
 title: Centennial Software Solutions LLC Home Page
 description: The Centennial Software Solutions LLC home page.
 show_downloads: false
-baseurl: "/post"
+baseurl: "/help"
