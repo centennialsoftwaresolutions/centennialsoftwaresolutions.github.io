@@ -8,7 +8,7 @@ title: Help
 <ul>
   {% for page in site.pages %}
     {% if page.path contains '/' and page.url != '/help/' %}
-      <li><a href="{{ page.url }}">{{ page.url }}</a></li>
+      <li><a href="/post{{ page.url }}">{{ page.url }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
