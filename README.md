@@ -17,24 +17,28 @@ We’re available for face-to-face meetings at our shared office and shipping ad
 
 # Rates & Pricing
 
-Rates vary by project scope, urgency, hours purchased, and whether work is ad hoc or continuous. Rush requests, small orders, or projects requiring extra insurance may cost more.
+We offer flexible rates based on your project’s scope and pace, with clear terms up front and no surprises.
 
 # Our Process
 
-1. **Free Call** – Talk with us; there is no obligation.
-2. **Discovery** – NDA + deeper understanding.
-3. **Proposal** – Clear plan, hours, and rate (free).
-4. **Agreement** – Sign + kickoff.
-5. **Billing** – Monthly Net-30, detailed logs, pay only for used time.
+1. [Call](tel:720-912-6065) or [email](mailto:help@centennialsoft.com?subject=Support%20Request) us with your problem.
+2. We’ll schedule a no-obligation call to learn more.
+3. If we can help, we’ll send you a proposal.
+4. Once we finalize agreements and receive your PO, we’ll kick things off.
+5. Each month you’ll get a clear Net-30 invoice for the time used.
 
-# Other Help
+# Additional Expertise
 
-In addition to **PetaLinux Tools**, we also support:
+Beyond **PetaLinux Tools**, we also provide support for:
 
-- **Linux**
-- **Yocto**
-- **General embedded systems**
-- **Board bring-up**
+- Linux
+- Yocto
 
-# Complimentary Help and Community Contributions
-We post free HOWTOs on our blog and contribute to the [AMD/Xilinx Community Forums](https://adaptivesupport.amd.com/s/?language=en_US) and [FPGA Reddit](https://www.reddit.com/r/FPGA/).
+- Embedded systems
+
+- Board bring-up
+
+# We May Have Already Solved Your Problem
+
+Browse our [help](/help/), or reach out by [phone](tel:720-912-6065) or [email](mailto:help@centennialsoft.com?subject=Solved%20this%3F), and if we’ve already written up a solution, we’ll point you straight to it.
+
