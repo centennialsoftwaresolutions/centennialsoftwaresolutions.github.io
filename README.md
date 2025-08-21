@@ -1,11 +1,10 @@
-![Centennial_Software_Solutions_LLC_Registered_Trademark_Logo.png](Centennial_Software_Solutions_LLC_Registered_Trademark_Logo.png)![AMD_Elite_ACP_Logo.png](AMD_Elite_ACP_Logo.png)
+![Centennial_Software_Solutions_LLC_Registered_Trademark_Logo.png](Centennial_Software_Solutions_LLC_Registered_Trademark_Logo.png) ![AMD_Elite_ACP_Logo.png](AMD_Elite_ACP_Logo.png)
 
 # What We Do and How to Contact Us
 
 **Centennial Software Solutions LLC** provides expert **PetaLinux Tools** support.
 
-Call us at **720-912-6065** or email **help@centennialsoft.com**.
-
+Call **720-912-6065** or email **help@centennialsoft.com** to get help today! 
 
 We’re available for face-to-face meetings at our shared office and shipping address: **4845 Pearl East Cir, Suite 101, Boulder, CO 80301**.
 
@@ -37,7 +36,5 @@ In addition to **PetaLinux Tools**, we also support:
 - **General embedded systems**
 - **Board bring-up**
 
-# Free Help and Community Contributions
-![Uploading AMD_Elite_ACP_Logo.png…]()
-
-We post free HOWTOs on our blog and Git Hub and contribute to the AMD/Xilinx Community Forums and FPGA Reddit.
+# Complimentary Help and Community Contributions
+We post free HOWTOs on our blog and GitHub and contribute to the AMD/Xilinx Community Forums and FPGA Reddit.
