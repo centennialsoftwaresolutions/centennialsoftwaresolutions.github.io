@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /pages.json
+---
+
+[
+{% assign first = true %}
+{% for page in site.pages %}
+  {% if page.path contains '/' 
+        and page.url != '/help/' 
+        and page.path != 'assets/css/style.css' %}
+    {% assign basename = page.url | split:'/' | last | replace:'.html','' %}
+    {% unless first %},{% endunless %}
+    { "slug": "{{ basename }}", "url": "{{ page.url }}" }
+    {% assign first = false %}
+  {% endif %}
+{% endfor %}
+]
