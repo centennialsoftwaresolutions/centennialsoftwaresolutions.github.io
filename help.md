@@ -6,12 +6,12 @@ title: Help
 # Help
 
 <ul>
-  {% for page in site.pages %}
-    {% if page.path contains '/' 
-          and page.url != '/help/' 
-          and page.path != 'assets/css/style.css' %}
-      {% assign basename = page.url | split:'/' | last | replace:'.html','' %}
-      <li><a href="/post{{ page.url }}">{{ basename }}</a></li>
+  {% for page in site.html_pages %} 
+    {% if page.path contains '/' %}
+      {% unless page.url contains 'help' or page.path contains 'style.css' %}
+        {% assign basename = page.url | split:'/' | last | replace:'.html','' %}
+        <li><a href="{{ page.url }}">{{ basename }}</a></li>
+      {% endunless %}
     {% endif %}
   {% endfor %}
 </ul>
