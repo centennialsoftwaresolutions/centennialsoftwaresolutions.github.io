@@ -1,3 +1,5 @@
-theme: jekyll-theme-minima
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: Centennial Software Solutions LLC Home Page
 description: The Centennial Software Solutions LLC home page.
