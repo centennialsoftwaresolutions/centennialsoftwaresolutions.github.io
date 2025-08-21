@@ -37,4 +37,4 @@ In addition to **PetaLinux Tools**, we also support:
 - **Board bring-up**
 
 # Complimentary Help and Community Contributions
-We post free HOWTOs on our blog and GitHub and contribute to the AMD/Xilinx Community Forums and FPGA Reddit.
+We post free HOWTOs on our blog and contribute to the [AMD/Xilinx Community Forums](https://adaptivesupport.amd.com/s/?language=en_US) and [FPGA Reddit](https://www.reddit.com/r/FPGA/).
