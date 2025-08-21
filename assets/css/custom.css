@@ -1,0 +1,11 @@
+/* Force single-column layout */
+.wrapper {
+  max-width: 800px;   /* keeps content readable */
+  margin: 0 auto;
+  display: block;
+}
+
+header, section, footer {
+  float: none !important;
+  width: 100% !important;
+}
