@@ -12,7 +12,7 @@ We’re available for face-to-face meetings at our shared office and shipping ad
 
 - **Deep Expertise** – We solve PetaLinux Tools issues daily, so we know the pitfalls and fixes.
 - **Lasting Value** – We document solutions so your team can use them after we’re gone.
-- **Knowledge Transfer** – We explain as we go, helping your team learn to solve future issues independently.
+- **Knowledge Transfer** – We explain as we go, helping your team solve future issues.
 - **Flexible Support** – We offer **ad-hoc support hours** without long-term commitments.
 
 # Rates & Pricing
