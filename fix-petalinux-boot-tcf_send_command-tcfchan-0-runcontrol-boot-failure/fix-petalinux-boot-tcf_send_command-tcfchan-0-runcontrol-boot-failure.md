@@ -9,7 +9,9 @@ This post shows a way to fix a petalinux-boot problem whose symptom is a `tcf_se
 After typing `petalinux-boot --jtag --fpga --u-boot --hw_server-url TCP:localhost:3121` on a ZC706
 
 ...you see:
-```
+
+{% raw %}
+```tcl
 INFO: Downloading ELF file: /home/zpfeffer/plxprjs/xilinx-zc706-2019.1/images/linux/zynq_fsbl.elf to the target.
 Already stopped                                
   invoked from within
@@ -42,6 +44,8 @@ Downloading Program -- /home/zpfeffer/plxprjs/xilinx-zc706-2019.1/images/linux/z
 Setting PC to Program Start Address 0x00000000
 Successfully downloaded /home/zpfeffer/plxprjs/xilinx-zc706-2019.1/images/linux/zynq_fsbl.elf
 ```
+{% endraw %}
+
 **<u><span>Fix</span></u>**
 
 Open the Xilinx SDK and disable the breakpoints. Rerun petalinux-boot.
