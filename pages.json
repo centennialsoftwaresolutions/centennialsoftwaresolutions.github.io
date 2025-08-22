@@ -4,15 +4,23 @@ permalink: /pages.json
 ---
 
 [
-{% assign first = true %}
-{% for page in site.pages %}
-  {% if page.path contains '/' 
-        and page.url != '/help/' 
-        and page.path != 'assets/css/style.css' %}
-    {% assign basename = page.url | split:'/' | last | replace:'.html','' %}
-    {% unless first %},{% endunless %}
-    { "slug": "{{ basename }}", "url": "{{ page.url }}" }
-    {% assign first = false %}
-  {% endif %}
-{% endfor %}
+{%- assign items = site.html_pages -%}
+{%- for p in items -%}
+  {%- unless p.url contains '/404'
+        or p.url contains '/assets'
+        or p.url == '/help/'
+        or p.url == '/help/index.html' -%}
+  {
+    "title": {{ p.title | default: p.url | jsonify }},
+    "url":   {{ p.url   | relative_url   | jsonify }},
+    "content": {{ p.content
+                  | strip_html
+                  | replace: '\r\n',' '
+                  | replace: '\n',' '
+                  | replace: '\r',' '
+                  | strip
+                  | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {%- endunless -%}
+{%- endfor -%}
 ]
