@@ -4,7 +4,7 @@
 
 Expert support for **PetaLinux Tools** and embedded systems.
 
-Call [720-912-6065](tel:720-912-6065) | email help@centennialsoft.com
+Call [720-912-6065](tel:720-912-6065) or email help@centennialsoft.com
 
 ------
 
