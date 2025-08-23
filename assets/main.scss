@@ -1,0 +1,52 @@
+---
+---
+
+@import "minima";
+
+.site-title { display: none !important; }
+
+/* Hide visually but keep for screen readers/SEO */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.site-logo img {
+  height: auto;   /* natural height */
+  width: auto;    /* natural width */
+  max-width: none; /* don’t restrict on large screens */
+}
+
+@media (max-width: 768px) {
+  .site-logo img {
+    max-width: 150px;  /* shrink for tablets & phones */
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-logo img {
+    max-width: 120px;  /* even smaller for tiny screens */
+    height: auto;
+  }
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;   /* logo and nav vertically centered */
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-footer .site-logo img {
+  height: 32px;   /* adjust footer logo size */
+  display: block;
+  margin-bottom: 0.5rem;
+}

@@ -87,6 +87,7 @@ title: Help
   {% for page in site.html_pages %}
     {% if page.path contains '/' %}
       {% unless page.url contains 'style.css'
+            or page.url contains '/about/'
             or page.url == '/help/'
             or page.url == '/help/index.html'
             or page.url == '/index.html'

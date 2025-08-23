@@ -1,3 +1,7 @@
+---
+title: About Us & How We Work
+---
+
 # About Us & How We Work
 
 **Centennial Software Solutions LLC** provides expert support for **PetaLinux Tools** and embedded systems. We help teams solve tough technical problems quickly, while documenting solutions so your engineers can build on them long after we’re done.

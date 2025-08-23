@@ -8,6 +8,7 @@ permalink: /pages.json
 {%- for p in items -%}
   {%- unless p.url contains '/404'
         or p.url contains '/assets'
+        or p.url == '/about/README.html'
         or p.url == '/help/'
         or p.url == '/help/index.html' -%}
   {

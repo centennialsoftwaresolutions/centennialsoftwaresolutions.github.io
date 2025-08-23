@@ -1,10 +1,17 @@
-remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
 plugins:
  - jekyll-remote-theme
  - jekyll-redirect-from
-title: Centennial Software Solutions LLC Home Page
-description: The Centennial Software Solutions LLC home page.
+title: Centennial Software Solutions
+description: Expert PetaLinux Tools Support
+email: help@centennialsoft.com
 show_downloads: false
 baseurl: ""
 exclude:
   - post/*
+header_pages:
+  - about/README.md
+  - help/index.md
+feed:
+  disable_in_development: true
