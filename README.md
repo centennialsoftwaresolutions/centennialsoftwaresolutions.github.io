@@ -1,4 +1,4 @@
-![Centennial Software Solutions LLC Registered Trademark Logo](Centennial_Software_Solutions_LLC_Registered_Trademark_Crop_Left.png) ![Elite AMD Adaptive Computing Partner](AMD_Elite_ACP_Logo-1755886529308-1.png)
+![Centennial Software Solutions LLC Registered Trademark Logo](Centennial_Software_Solutions_LLC_Registered_Trademark_Crop_Left.png) ![Elite AMD Adaptive Computing Partner](AMD_Elite_ACP_Logo.png)
 
 Expert support for **PetaLinux Tools** and embedded systems.
 
