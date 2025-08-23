@@ -11,7 +11,7 @@ baseurl: ""
 exclude:
   - post/*
 header_pages:
-  - about/README.md
+  - about/index.md
   - help/index.md
 feed:
   disable_in_development: true
