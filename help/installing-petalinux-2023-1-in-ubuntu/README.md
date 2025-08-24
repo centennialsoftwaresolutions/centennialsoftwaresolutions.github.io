@@ -10,7 +10,7 @@ Petalinux 2022.2 and older versions only support Ubuntu 20.04.
 
 UG1144 lists all the officially supported OSs in Chapter 2 - Installation Steps. We do not recommend using Petalinux on a non-supported OS. Unlike Vitis/Vivado, which _might_ still work even if you're using a non-supported OS, Petalinux builds tend to fail in weird ways when not using a supported OS.
 
-If you're running a different Linux distribution on your computer, you can use LXC or Docker to containerize a supported Ubuntu version - see [<u><span>this article</span></u>](https://www.css-techhelp.com/post/set-up-lxc-for-vitis-vivado-and-petalinux-development) for details on using LXC. Otherwise, you can run Ubuntu & Petalinux in a virtual machine.
+If you're running a different Linux distribution on your computer, you can use LXC or Docker to containerize a supported Ubuntu version - see [<u><span>this article</span></u>](/help/set-up-lxc-for-vitis-vivado-and-petalinux-development) for details on using LXC. Otherwise, you can run Ubuntu & Petalinux in a virtual machine.
 
 ## **1) Download the Petalinux installer**
 

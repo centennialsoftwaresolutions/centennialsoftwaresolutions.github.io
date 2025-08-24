@@ -103,7 +103,7 @@ openSUSE-Leap-15.4                     openSUSE Leap 15.4
 openSUSE-Tumbleweed                    openSUSE Tumbleweed
 ```
 
-\# Install & Set Default (setting a default fixes [<u><span>this</span></u>](https://www.css-techhelp.com/post/wsl-error-3-wsl-8-error-createprocessentrycommon-370-getpwuid-0-failed-2) issue)
+\# Install & Set Default (setting a default fixes [<u><span>this</span></u>](/help/wsl-error-3-wsl-8-error-createprocessentrycommon-370-getpwuid-0-failed-2) issue)
 
 ```
 wsl --install Ubuntu-22.04

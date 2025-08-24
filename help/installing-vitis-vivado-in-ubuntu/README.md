@@ -8,7 +8,7 @@ The Xilinx 2023.1 toolkit officially supports both Ubuntu 20.04 and 22.02.
 
 Xilinx version 2022.2 and older only support Ubuntu 20.04.
 
-You can use a virtual machine to run Vitis. If you're using Linux as the native OS on your computer, you can also [<u><span>use LXC to run Vitis</span></u>](https://www.css-techhelp.com/post/set-up-lxc-for-vitis-vivado-and-petalinux-development).
+You can use a virtual machine to run Vitis. If you're using Linux as the native OS on your computer, you can also [<u><span>use LXC to run Vitis</span></u>](/help/set-up-lxc-for-vitis-vivado-and-petalinux-development).
 
 ## **1) Download the Xilinx Unified Installer**
 
@@ -39,7 +39,7 @@ This should take 5-20 minutes depending on your CPU.
 
 ## **4.0) Install dependencies before running the installer**
 
-It may be helpful to install the same dependencies that PetaLinux needs before running the Vitis installer. See step 3 of the PetaLinux installation article: https://www.css-techhelp.com/post/installing-petalinux-2023-1-in-ubuntu 
+It may be helpful to install the same dependencies that PetaLinux needs before running the Vitis installer. See step 3 of the PetaLinux installation article: help/installing-petalinux-2023-1-in-ubuntu 
 
 Without these dependncies
 

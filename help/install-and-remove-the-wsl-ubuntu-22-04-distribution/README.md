@@ -4,7 +4,7 @@ This post shows how to **Install and Remove the WSL Ubuntu-22.04 Distribution**.
 
 ## Prerequisites
 
-Run [Get WSL](https://www.css-techhelp.com/post/get-wsl-enabling-and-disabling-microsoft-windows-subsystem-linux-in-powershell-a-comprehensive-guide) 
+Run [Get WSL](/help/get-wsl-enabling-and-disabling-microsoft-windows-subsystem-linux-in-powershell-a-comprehensive-guide)
 
 ## Computer Configuration
 
@@ -118,7 +118,7 @@ explorer.exe .
 # \\wsl.localhost\Ubuntu-22.04\home\username
 ```
 
-\# Set the default explicitly to work around this [<u><span>bug</span></u>](https://www.css-techhelp.com/post/wsl-error-3-wsl-8-error-createprocessentrycommon-370-getpwuid-0-failed-2)
+\# Set the default explicitly to work around this [<u><span>bug</span></u>](/help/wsl-error-3-wsl-8-error-createprocessentrycommon-370-getpwuid-0-failed-2)
 
 \# Get out of the distribution
 

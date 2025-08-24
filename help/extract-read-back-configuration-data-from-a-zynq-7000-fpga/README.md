@@ -12,7 +12,7 @@ _Note that the hardware will disable bitstream readback while an encrypted bitst
 
 As a prerequisite, you’ll need a Zynq-7000 with a bitstream programmed into it. You can skip this section if you already have a bitstream programmed into your device.
 
-You can generate a bitstream by following Part 1 (through step 25) of [Run Hello World on a ZC702](https://www.css-techhelp.com/post/run-hello-world-on-a-zc702). That guide was written for Vivado 2018.2, but those steps still work in 2023.1.
+You can generate a bitstream by following Part 1 (through step 25) of [Run Hello World on a ZC702](/help/run-hello-world-on-a-zc702). That guide was written for Vivado 2018.2, but those steps still work in 2023.1.
 
 That will generate ps7\_init.tcl and the bitstream, located at:
 

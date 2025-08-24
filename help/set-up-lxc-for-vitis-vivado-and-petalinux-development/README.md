@@ -226,7 +226,7 @@ While the Xilinx tools (Vitis to a lesser extent, Vivado, and especially Petalin
 -   Make /tools/Xilinx a read-write shared folder into your container. Run the Xilinx installers inside the container. At this point, the Xilinx programs are installed into /tools/Xilinx (which is shared into the container but really exists on your host filesystem). You can reconfigure the share to be read-only at this point.
     
 
-Refer to our installation guides for [<u><span>Vitis/Vivado</span></u>](https://www.css-techhelp.com/post/installing-vitis-vivado-in-ubuntu) and [<u><span>Petalinux</span></u>](https://www.css-techhelp.com/post/installing-petalinux-2023-1-in-ubuntu). The steps to install Vitis/Vivado/Petalinux in an Ubuntu container with a shared folder are the exact same as the steps to install on native Ubuntu - so you can follow those instructions with no modification required. If you choose to install inside the container, finish all of these LXC configuration steps first - you'll need to set up the container's GUI before you can run the Xilinx Unified Installer.
+Refer to our installation guides for [<u><span>Vitis/Vivado</span></u>](/help/installing-vitis-vivado-in-ubuntu) and [<u><span>Petalinux</span></u>](help/installing-petalinux-2023-1-in-ubuntu). The steps to install Vitis/Vivado/Petalinux in an Ubuntu container with a shared folder are the exact same as the steps to install on native Ubuntu - so you can follow those instructions with no modification required. If you choose to install inside the container, finish all of these LXC configuration steps first - you'll need to set up the container's GUI before you can run the Xilinx Unified Installer.
 
 Aside from /tools/Xilinx, we'll also share a "scratch"/workdir folder into the container.
 
@@ -294,7 +294,7 @@ ubuntu@petalinux20:/root$ ls -ld /work
 drwxr-xr-x 7 ubuntu ubuntu 4096 May 23 23:40 /work
 ```
 
-That example assumes you already have Xilinx tools installed in /tools/Xilinx on the host. If you plan on installing Xilinx tools from within the container, add shift: "true" to the xilinx shared device configuration. Then follow the steps to install [<u><span>Vitis/Vivado</span></u>](https://www.css-techhelp.com/post/installing-vitis-vivado-in-ubuntu) or [<u><span>Petalinux</span></u>](https://www.css-techhelp.com/post/installing-petalinux-2023-1-in-ubuntu) in the container.
+That example assumes you already have Xilinx tools installed in /tools/Xilinx on the host. If you plan on installing Xilinx tools from within the container, add shift: "true" to the xilinx shared device configuration. Then follow the steps to install [<u><span>Vitis/Vivado</span></u>](help/installing-vitis-vivado-in-ubuntu) or [<u><span>Petalinux</span></u>](help/installing-petalinux-2023-1-in-ubuntu) in the container.
 
 ## **Configuration part 2: Share X11 into the container**
 

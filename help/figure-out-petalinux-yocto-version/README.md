@@ -1,6 +1,6 @@
 # Figure Out PetaLinux Yocto Version (PetaLinux <= 2019.2)
 
-**Note:** This guide is for PetaLinux version 2019.2 and older. For PetaLinux version 2020.1 and newer, see [<u><span>this newer post</span></u>](https://www.css-techhelp.com/post/figure-out-petalinux-yocto-version-new).
+**Note:** This guide is for PetaLinux version 2019.2 and older. For PetaLinux version 2020.1 and newer, see [<u><span>this newer post</span></u>](/help/figure-out-petalinux-yocto-version-new).
 
 ![yocto_project_logo_1](yocto_project_logo_1.png)
 
