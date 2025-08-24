@@ -3,6 +3,7 @@ theme: minima
 plugins:
  - jekyll-remote-theme
  - jekyll-redirect-from
+ - jekyll-sitemap
 title: Centennial Software Solutions
 description: Expert PetaLinux Tools Support
 email: help@centennialsoft.com
@@ -11,3 +12,4 @@ baseurl: ""
 header_pages:
   - about/index.md
   - help/index.md
+  - contact.md
