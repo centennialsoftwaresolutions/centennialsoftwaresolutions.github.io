@@ -84,7 +84,8 @@ title: Help
 # Help
 
 <ul>
-  {% for page in site.html_pages %}
+  {% assign pages_alpha = site.html_pages | where_exp: "p", "p.url contains '/help/'" | sort: "url" %}
+  {% for page in pages_alpha %}
     {% if page.path contains '/' %}
       {% unless page.url contains 'style.css'
             or page.url contains '/about/'
