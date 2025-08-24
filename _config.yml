@@ -8,10 +8,6 @@ description: Expert PetaLinux Tools Support
 email: help@centennialsoft.com
 show_downloads: false
 baseurl: ""
-exclude:
-  - post/*
 header_pages:
   - about/index.md
   - help/index.md
-feed:
-  disable_in_development: true
