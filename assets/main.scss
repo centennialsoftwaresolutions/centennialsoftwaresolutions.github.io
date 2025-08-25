@@ -50,3 +50,21 @@
   display: block;
   margin-bottom: 0.5rem;
 }
+
+/* Basic form styling */
+.contact-form label { display:block; margin:.75rem 0; }
+.contact-form input, .contact-form textarea {
+  width:100%; max-width:640px; padding:.6rem .7rem;
+  border:1px solid #ddd; border-radius:6px; box-sizing:border-box;
+}
+.contact-form button {
+  margin-top:.75rem; padding:.6rem 1rem; border:1px solid #ddd;
+  border-radius:6px; background:#f7f7f7; cursor:pointer;
+}
+.contact-form button:disabled { opacity:.6; cursor:default; }
+.form-status { margin-top:.75rem; min-height:1.2em; }
+.form-status.ok  { color:#2e7d32; }
+.form-status.err { color:#c62828; }
+
+/* Gray placeholder text */
+.contact-form ::placeholder { color:#9aa0a6; opacity:1; }
