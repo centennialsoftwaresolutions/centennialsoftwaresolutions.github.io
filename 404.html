@@ -1,28 +1,50 @@
-<script>
-(function () {
-  // Respect baseurl if set
-  var base = '{{ site.baseurl | default: "" }}';
-  var path = window.location.pathname;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page Not Found</title>
 
-  if (base && path.startsWith(base)) {
-    path = path.slice(base.length);
-  }
+  <!-- Default fallback (meta refresh to Help Center after 5s) -->
+  <meta http-equiv="refresh" content="5;url=/help/">
 
-  // Match /post/<slug> (optionally with trailing slash)
-  var m = path.match(/^\/post\/([^\/]+)\/?$/);
-  if (!m) return;
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const path = window.location.pathname;
 
-  var slug = decodeURIComponent(m[1]);
+      // Extract last segment (slug)
+      const parts = path.split("/").filter(Boolean);
+      const slug = parts[parts.length - 1];
+      const newUrl = "/help/" + slug;
 
-  fetch(base + '/pages.json')
-    .then(function (r) { return r.json(); })
-    .then(function (list) {
-      var match = list.find(function (p) { return p.slug === slug; });
-      if (match) {
-        // Redirect to the canonical URL
-        window.location.replace(base + match.url);
+      // Try to see if the new page exists
+      fetch(newUrl, { method: "HEAD" })
+        .then(response => {
+          if (response.ok) {
+            // Redirect immediately
+            window.location.replace(newUrl);
+          } else {
+            showFallback(slug);
+          }
+        })
+        .catch(() => {
+          showFallback(slug);
+        });
+
+      function showFallback(slug) {
+        const container = document.getElementById("message");
+        container.innerHTML = `
+          <h1>Page Still Migrating</h1>
+          <p>We couldn’t find the page <code>${slug}</code> yet.</p>
+          <p>You’ll be redirected to the <a href="/help/">Help Center</a> shortly.</p>
+        `;
       }
-    })
-    .catch(function () { /* silent fail => normal 404 */ });
-})();
-</script>
+    });
+  </script>
+</head>
+<body>
+  <div id="message">
+    <h1>Looking for the new page…</h1>
+    <p>If nothing happens, you’ll be redirected to the <a href="/help/">Help Center</a> in 5 seconds.</p>
+  </div>
+</body>
+</html>
