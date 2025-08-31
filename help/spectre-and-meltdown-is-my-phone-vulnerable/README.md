@@ -30,7 +30,7 @@ Google "LG M210N Aristo Specs" got [link](http://www.phonearena.com/phones/LG-Ar
 
 Found Cortex-A53:
 
-![cortex_a53](C:cortex_a53.png)
+![cortex_a53](cortex_a53.png)
 
 Look in Arm's [table](http://developer.arm.com/support/security-update):
 
