@@ -25,8 +25,8 @@ To add it I:
 3. In the **Vivado 2025.1 Installer – Select Extra Content** window, enabled:
 
    * **\[x] Devices**
-  * **\[x] 7 Series**
-     * **\[x] Spartan-7 FPGAs**
+     * **\[x] 7 Series**
+       * **\[x] Spartan-7 FPGAs**
 
 4. Clicked **Next** through the remaining wizard screens, using defaults, to complete the installation.
 
