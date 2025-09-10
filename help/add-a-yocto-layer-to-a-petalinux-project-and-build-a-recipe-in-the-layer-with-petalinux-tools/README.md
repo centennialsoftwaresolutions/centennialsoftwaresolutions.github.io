@@ -6,7 +6,6 @@ This post shows how to add a new Yocto layer to your PetaLinux project and build
 
 This post uses the "meta-example" from DynamicDevices.
 
-*Looking for help build software for Xilinx SoCs? Email* [*inquiries@centennialsoftwaresolutions.com*](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+on+building+software+for+Xilinx+SoCs+for+$99.00) *today to schedule a 30-min consult for $99.00*
 
 **Prerequisites**
 

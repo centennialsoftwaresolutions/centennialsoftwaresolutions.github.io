@@ -4,7 +4,6 @@
 
 Step-by-step, verified instructions, for installing the 64-bit PC (AMD64) desktop image of Ubuntu 16.04.1 LTS (Xenial Xerus) in Oracle VM VirtualBox 5.1.14 running in Windows 7 Professional Service Pack 1 (CurrentBuild 7601) on a ThinkPad T460 model 20FNCTO1WW with an Intel(R) Core(TM) i7-6600U CPU
 
-*Looking for software help? Email* [*inquiries@centennialsoftwaresolutions.com*](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+for+$99.00) *today to schedule a 30-min consult for $99.00.*
 
 ## Step 1: Enable Intel (R) Virtualization Technology in the T460's BIOS
 

@@ -8,7 +8,6 @@ The post overlays the write up on boot from the PS Boot and Device Configuration
 
 These instructions worked with PetaLinux Tools 2017.4 and XSCT 2017.4.
 
-*Looking for PetaLinux help? Email* [*inquiries@centennialsoftwaresolutions.com* ](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+on+PetaLinux+Tools+for+$99.00)*today to schedule a 30-min consult for $99.00*
 
 **Boot Info**
 

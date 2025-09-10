@@ -4,7 +4,6 @@
 
 This post walks through installing the 2017.4 version of Vivado and the SDK on a Linux box.
 
-*Looking for help build software for Xilinx SoCs? Email* [*inquiries@centennialsoftwaresolutions.com*](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+on+building+software+for+Xilinx+SoCs+for+$99.00) ***today\*** *to schedule a 30-min consult for $99.00*
 
 Warning:
 

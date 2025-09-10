@@ -4,7 +4,6 @@
 
 This post walks through the **Zynq UltraScale+ MPSoC ZCU102 Evaluation Kit** Quick Start Guide. It also contains videos of power on and re-running BIST.
 
-Looking for help build software for Xilinx SoCs? Email [inquiries@centennialsoftwaresolutions.com](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+on+building+software+for+Xilinx+SoCs+for+$99.00) **today** to schedule a 30-min consult for $99.00.
 
 **STEP 1:** **Set Configuration Switches**
 

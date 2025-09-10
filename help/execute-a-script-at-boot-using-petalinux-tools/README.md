@@ -4,7 +4,6 @@
 
 This post lists how to install an initscript into a build using PetaLinux Tools.
 
-*Looking for PetaLinux help? Email* [*inquiries@centennialsoftwaresolutions.com*](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+on+PetaLinux+Tools+for+$99.00) *today to schedule a 30-min consult for $99.00*
 
 **Notes**
 

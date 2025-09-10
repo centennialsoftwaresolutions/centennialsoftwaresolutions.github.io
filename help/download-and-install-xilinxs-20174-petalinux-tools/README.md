@@ -6,7 +6,6 @@ This post shows how to download and install Xilinx's 2017.4 PetaLinux Tools on U
 
 Note: the whole process took me about 3 hours on a 40 Gbps download link. Most of the time is spent waiting for 7.8 GB's to download.
 
-*Looking for PetaLinux help? Email* [*inquiries@centennialsoftwaresolutions.com* ](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+on+PetaLinux+Tools+for+$99.00)*today to schedule a 30-min consult for $99.00*
 
 **Prerequisites**
 

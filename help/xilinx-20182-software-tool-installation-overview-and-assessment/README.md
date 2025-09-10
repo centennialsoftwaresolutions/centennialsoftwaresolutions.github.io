@@ -4,7 +4,6 @@
 
 This post enumerates the size of the Vivado, SDK, PetaLinux Tools and SDx (which includes SDSoC and SDAccel) installers, the system requirements and installation documentation. It also provides a high-level assessment based on the enumeration and 3 calls to action for Xilinx.
 
-*Looking for help build software for Xilinx SoCs? Email* [*inquiries@centennialsoftwaresolutions.com*](mailto:inquiries@centennialsoftwaresolutions.com?subject=I'm+looking+for+a+30-min+consult+on+building+software+for+Xilinx+SoCs+for+$99.00) ***today\*** *to schedule a 30-min consult for $99.00*
 
 This post may be useful to anyone trying to size a local development computer, AWS or Google Cloud instance and trying to gauge how long an installation might take. It also contains links to Xilinx documentation on each tools listed.
 
