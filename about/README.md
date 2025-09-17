@@ -1,6 +1,6 @@
 # About Us & How We Work
 
-**Centennial Software Solutions LLC** provides expert support for **PetaLinux Tools** and embedded systems. We help teams solve tough technical problems quickly, while documenting solutions so your engineers can build on them long after we’re done.
+**Centennial Software Solutions LLC** provides expert support for **Vivado**, **Vitis**, **PetaLinux Tools**, and embedded systems. We help teams solve tough technical problems quickly, while documenting solutions so your engineers can build on them long after we’re done.
 
 📞 [720-912-6065](tel:720-912-6065) | 📝 [form](/contact/) | ✉️ [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
 📍 Available for in-person meetings at **4845 Pearl East Cir, Suite 101, Boulder, CO 80301**
@@ -9,7 +9,7 @@
 
 ## Partnership, Not Just Problem-Solving
 
-* **Deep Expertise** – We solve PetaLinux Tools issues every day, so we know the pitfalls and fixes.
+* **Deep Expertise** – We solve PetaLinux Tools issues daily, so we know the pitfalls and fixes.
 * **Lasting Value** – We provide documentation so your team can continue using the solutions.
 * **Knowledge Transfer** – We explain as we go, empowering your team to solve future challenges.
 * **Flexible Support** – We offer ad-hoc support hours without requiring long-term commitments.
@@ -28,19 +28,19 @@ Our rates are flexible and based on project scope, urgency, and hours purchased.
 2. We’ll schedule a no-obligation call to learn more.
 3. If we can help, we’ll send you a proposal with scope, milestones, and rates.
 4. Once agreements are finalized and we receive your PO, we’ll kick things off.
-5. Each month you’ll get a detailed Net-30 invoice for the time you’ve actually used.
+5. Each month, you’ll get a detailed Net-30 invoice for your used time.
 
 ---
 
 ## Areas of Expertise
 
-In addition to **PetaLinux Tools**, we also provide support in:
+In addition to supporting **Vivado**, **Vitis**, **PetaLinux Tools**, and embedded systems, we also provide support in:
 
-* Linux and Yocto development
+* **Linux** and **Yocto** development
 * Embedded systems and driver support
-* Board bring-up and hardware debugging
+* **FPGA**, **ACAP**, board bring-up, and debugging
 * Schematic reviews and design guidance
-* Software & HDL development (C/C++, Verilog, VHDL, Python, and more)
+* Software & HDL development (**C/C++**, **Verilog**, **VHDL**, **Python**, and more)
 
 ---
 
