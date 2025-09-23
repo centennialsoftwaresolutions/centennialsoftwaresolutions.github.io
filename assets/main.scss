@@ -1,11 +1,13 @@
 ---
+# front matter so Jekyll processes this
 ---
 
 @import "minima";
 
-.site-title { display: none !important; }
-
-/* Hide visually but keep for screen readers/SEO */
+/* Hide site title visually but keep for SEO/screen readers */
+.site-title {
+  display: none !important;
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -18,59 +20,91 @@
   border: 0;
 }
 
+/* ======================================
+   Logo sizing & header layout
+   ====================================== */
+
+/* Constrain all header logos */
 .site-logo img {
-  height: auto;   /* natural height */
-  width: auto;    /* natural width */
-  max-width: none; /* don’t restrict on large screens */
+  height: 40px;      /* fixed height on desktop */
+  width: auto;       /* maintain aspect ratio */
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px; /* spacing between logos */
 }
 
+/* Shrink logos on tablets */
 @media (max-width: 768px) {
   .site-logo img {
-    max-width: 150px;  /* shrink for tablets & phones */
-    height: auto;
+    height: 28px;
   }
 }
 
+/* Shrink logos further on small phones */
 @media (max-width: 480px) {
   .site-logo img {
-    max-width: 120px;  /* even smaller for tiny screens */
-    height: auto;
+    height: 24px;
   }
 }
 
+/* Compact the header itself */
 .site-header {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
 
-
 .site-header .wrapper {
   display: flex;
-  align-items: center;   /* logo and nav vertically centered */
+  align-items: center;   /* logo + nav vertically centered */
   justify-content: space-between;
   gap: 1rem;
 }
 
+/* Footer logo sizing */
 .site-footer .site-logo img {
-  height: 32px;   /* adjust footer logo size */
+  height: 32px;
+  width: auto;
   display: block;
   margin-bottom: 0.5rem;
 }
 
-/* Basic form styling */
-.contact-form label { display:block; margin:.75rem 0; }
-.contact-form input, .contact-form textarea {
-  width:100%; max-width:640px; padding:.6rem .7rem;
-  border:1px solid #ddd; border-radius:6px; box-sizing:border-box;
+/* ======================================
+   Contact form styling
+   ====================================== */
+.contact-form label {
+  display: block;
+  margin: .75rem 0;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 640px;
+  padding: .6rem .7rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 .contact-form button {
-  margin-top:.75rem; padding:.6rem 1rem; border:1px solid #ddd;
-  border-radius:6px; background:#f7f7f7; cursor:pointer;
+  margin-top: .75rem;
+  padding: .6rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f7f7f7;
+  cursor: pointer;
 }
-.contact-form button:disabled { opacity:.6; cursor:default; }
-.form-status { margin-top:.75rem; min-height:1.2em; }
-.form-status.ok  { color:#2e7d32; }
-.form-status.err { color:#c62828; }
+.contact-form button:disabled {
+  opacity: .6;
+  cursor: default;
+}
+.form-status {
+  margin-top: .75rem;
+  min-height: 1.2em;
+}
+.form-status.ok  { color: #2e7d32; }
+.form-status.err { color: #c62828; }
 
 /* Gray placeholder text */
-.contact-form ::placeholder { color:#9aa0a6; opacity:1; }
+.contact-form ::placeholder {
+  color: #9aa0a6;
+  opacity: 1;
+}
