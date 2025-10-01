@@ -1,7 +1,5 @@
 # Xilinx 2016.4 WebPACK Vivado and SDK Install on Windows 7 SP1
 
-![xilinx_logo_1](xilinx_logo_1.png)
-
 This post shows a WebPACK install of the 2016.4 release of Vivado and the SDK. It also lists the features and devices supported in WebPACK.
 
 **<u><span>Notes</span></u>**
