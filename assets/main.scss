@@ -4,10 +4,15 @@
 
 @import "minima";
 
-/* Hide site title visually but keep for SEO/screen readers */
+/* ======================================================
+   Accessibility / SEO helpers
+   ====================================================== */
+
+/* Hide site title visually but keep it for SEO/screen readers */
 .site-title {
   display: none !important;
 }
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -20,91 +25,152 @@
   border: 0;
 }
 
-/* ======================================
-   Logo sizing & header layout
-   ====================================== */
+/* ======================================================
+   Header layout & logos
+   ====================================================== */
 
-/* Constrain all header logos */
-.site-logo img {
-  height: 40px;      /* fixed height on desktop */
-  width: auto;       /* maintain aspect ratio */
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 8px; /* spacing between logos */
-}
-
-/* Shrink logos on tablets */
-@media (max-width: 768px) {
-  .site-logo img {
-    height: 28px;
-  }
-}
-
-/* Shrink logos further on small phones */
-@media (max-width: 480px) {
-  .site-logo img {
-    height: 24px;
-  }
-}
-
-/* Compact the header itself */
 .site-header {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding: 0.5rem 0;
 }
 
 .site-header .wrapper {
   display: flex;
-  align-items: center;   /* logo + nav vertically centered */
-  justify-content: space-between;
+  flex-direction: column;  /* stack logo row above nav */
+  align-items: center;     /* center horizontally */
+  text-align: center;
   gap: 1rem;
 }
 
-/* Footer logo sizing */
+/* Logos row */
+.site-branding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* Logo images */
+.site-logo img {
+  height: 40px;
+  width: auto;
+  display: inline-block;
+}
+
+/* Responsive logo scaling */
+@media (max-width: 768px) {
+  .site-logo img { height: 28px; }
+}
+@media (max-width: 480px) {
+  .site-logo img { height: 24px; }
+}
+
+/* ======================================================
+   Navigation (centered with hamburger on mobile)
+   ====================================================== */
+
+.site-nav {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+/* Hamburger toggle */
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-trigger {
+  display: none; /* hide checkbox */
+}
+
+.site-nav label {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+/* Nav links container */
+.site-nav .trigger {
+  display: none;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.nav-trigger:checked ~ .trigger {
+  display: flex;
+}
+
+/* Desktop: show inline nav, hide hamburger */
+@media (min-width: 768px) {
+  .site-nav label {
+    display: none; /* hide hamburger */
+  }
+  .site-nav .trigger {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+
+/* ======================================================
+   Footer logos (left-aligned)
+   ====================================================== */
+
 .site-footer .site-logo img {
   height: 32px;
   width: auto;
   display: block;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem 0; /* flush left */
 }
 
-/* ======================================
-   Contact form styling
-   ====================================== */
+/* ======================================================
+   Contact form (left-aligned)
+   ====================================================== */
+
 .contact-form label {
   display: block;
-  margin: .75rem 0;
+  margin: 0.75rem 0;
+  text-align: left;
 }
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   max-width: 640px;
-  padding: .6rem .7rem;
+  padding: 0.6rem 0.7rem;
   border: 1px solid #ddd;
   border-radius: 6px;
   box-sizing: border-box;
+  display: block;
 }
+
 .contact-form button {
-  margin-top: .75rem;
-  padding: .6rem 1rem;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
   border: 1px solid #ddd;
   border-radius: 6px;
   background: #f7f7f7;
   cursor: pointer;
 }
+
 .contact-form button:disabled {
-  opacity: .6;
+  opacity: 0.6;
   cursor: default;
 }
+
 .form-status {
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   min-height: 1.2em;
+  text-align: left;
 }
 .form-status.ok  { color: #2e7d32; }
 .form-status.err { color: #c62828; }
 
-/* Gray placeholder text */
+/* Placeholder styling */
 .contact-form ::placeholder {
   color: #9aa0a6;
   opacity: 1;
 }
+

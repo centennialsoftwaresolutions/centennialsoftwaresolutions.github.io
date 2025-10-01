@@ -1,12 +1,18 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
 
-    <!-- Logo + hidden site title -->
-    <a class="site-logo" href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/Trademarked_Centennial_Software_Solutions_Optimized.svg' | relative_url }}" alt="{{ site.title }}">
-      <img src="{{ '/AMD_Elite_ACP_Logo.png' | relative_url }}" alt="AMD ELITE ACP Partner">
-      <span class="sr-only">{{ site.title }}</span>
-    </a>
+    <!-- Logo row -->
+    <div class="site-branding">
+      <a class="site-logo" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/Trademarked_Centennial_Software_Solutions_Optimized.svg' | relative_url }}"
+             alt="{{ site.title }}"
+             width="250" height="80" loading="eager" decoding="async">
+        <img src="{{ '/AMD_Elite_ACP_Logo.png' | relative_url }}"
+             alt="AMD ELITE ACP Partner"
+             width="120" height="40" loading="lazy" decoding="async">
+        <span class="sr-only">{{ site.title }}</span>
+      </a>
+    </div>
 
     <!-- Navigation -->
     <nav class="site-nav">
