@@ -71,37 +71,38 @@
 }
 
 /* ======================================================
-   Navigation (hamburger on mobile, inline on desktop)
+   Navigation
    ====================================================== */
 
 .site-nav {
   width: 100%;
-  position: relative;
+  position: relative;   /* keep dropdown relative to nav */
   text-align: left;
+  right: 0;
+  top: 0;
 }
 
-/* Hamburger toggle */
+/* Hamburger toggle (mobile only) */
+.menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
 .menu-icon {
+  align-items: center;
   font-size: 1.5rem;
   line-height: 1;
-  cursor: pointer;
 }
 
 .nav-trigger {
   display: none; /* hide checkbox */
 }
 
-/* Hamburger label (mobile only) */
-.site-nav label {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; /* push ☰ to left */
-  height: 2.5rem;
-  cursor: pointer;
-  margin-bottom: 0.25rem;
-}
-
-/* Nav links container (hidden until ☰ tapped) */
+/* Links (hidden by default on mobile) */
 .site-nav .trigger {
   display: none;
   flex-direction: column;
@@ -114,14 +115,14 @@
 }
 
 /* Desktop: inline nav, hide hamburger */
-@media (min-width: 768px) {
-  .site-nav label {
-    display: none; /* hide hamburger */
+@media (min-width: 600px) {
+  .menu-toggle {
+    display: none; /* hide ☰ */
   }
   .site-nav .trigger {
     display: flex !important;
     flex-direction: row;
-    justify-content: flex-start; /* centered under logos */
+    justify-content: flex-start; /* links left align */
     gap: 1.5rem;
   }
 }
