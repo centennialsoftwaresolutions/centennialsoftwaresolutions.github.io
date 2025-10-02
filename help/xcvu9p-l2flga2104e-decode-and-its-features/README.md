@@ -1,8 +1,6 @@
 # XCVU9P-L2FLGA2104E Decode and Its Features
 
-![xcvu9p-l2flga2104e_board](xcvu9p-l2flga2104e_board.jpg)
-
-This post lists a XCVU9P-L2FLGA2104E decode and its features. This part is used on the AMD Virtex UltraScale+ FPGA VCU118 Evaluation Kit @ https://www.xilinx.com/products/boards-and-kits/vcu118.html.
+This post lists a XCVU9P-L2FLGA2104E decode and its features. This part is used on the AMD Virtex UltraScale+ FPGA VCU118 Evaluation Kit @ [vcu118](https://www.xilinx.com/products/boards-and-kits/vcu118.html).
 
 ## XCVU9P-L2FLGA2104E Decode and Its Features
 
