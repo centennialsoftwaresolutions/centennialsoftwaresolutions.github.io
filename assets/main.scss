@@ -186,3 +186,32 @@
   opacity: 1;
 }
 
+/* ======================================================
+   Inner pages (About, How We Work, Contact, etc.)
+   Force left justification and tighten line length
+   ====================================================== */
+
+.page-content,
+.post-content {
+  text-align: left;
+}
+
+.page-content > .wrapper,
+.post-content > .wrapper {
+  max-width: 42rem;      /* ~672px, readable line length */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content p,
+.page-content ul,
+.page-content ol {
+  text-align: left;
+}
+
