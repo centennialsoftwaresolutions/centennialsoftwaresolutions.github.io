@@ -1,7 +1,5 @@
 # Windows, Linux and Classic Mac OS Line Endings
 
-![windows_linux_mac_line_endings_1](windows_linux_mac_line_endings_1.png)
-
 This post lists the line endings that Windows/DOS, Linux/Unix and Mac prior to macOS use.
 
 **Windows/DOS**
