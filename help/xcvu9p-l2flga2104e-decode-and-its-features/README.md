@@ -6,43 +6,79 @@ This post lists a XCVU9P-L2FLGA2104E decode and its features. This part is used 
 
 ## XC V U 9 P -L2 F L G A 2104 E
 
-<table data-hook="TableComponent"><colgroup><col><col></colgroup><tbody><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-2gcbt59268"><span><span>XC</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-f4bp714690"><span><span>Commercial Grade</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-azjf759273"><span><span>V</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-akzbc14697"><span><span>Virtex</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-1kp3k59278"><span><span>U</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-yteo214704"><span><span>UltraScale&nbsp;&nbsp;&nbsp;</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-5e4ds59283"><span><span>9</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-ry3dc14711"><span><span>Value Index</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-uyqkd59288"><span><span>P</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-xrccx14718"><span><span>UltraScale+</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-v2ua459293"><span><span>-L2</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-f24hd14725"><span><span>Low Power</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-41p1k59298"><span><span>F</span></span></p></td><td data-hook="table-plugin-cell"><div><p dir="auto" id="viewer-z3xji14732"><span><a target="_blank" href="https://www.centennialsoftwaresolutions.com/post/flip-chip-1-0-mm" rel="noopener noreferrer" data-hook="WebLink"><u><span>Flip-Chip (1.0 mm)</span></u></a></span></p></div></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-wm6kk59303"><span><span>L</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-9doa214739"><span><span>Lid SSI</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-zlh4c59308"><span><span>G</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-gsxmw14746"><span><span>RoHS 6/6 w/ Exemption 15</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-jvt6159313"><span><span>A</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-joc5b14753"><span><span>Package Designator</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-etvo359318"><span><span>2104</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-cmdh814760"><span><span>Package Pin Count</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-44khd59323"><span><span>E</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-f07x914767"><span><span>Extended (Tj = 0 degC to +110 degC)</span></span></p></td></tr></tbody></table>
+| Code | Description                                                                             |
+| ---- | --------------------------------------------------------------------------------------- |
+| XC   | Commercial Grade                                                                        |
+| V    | Virtex                                                                                  |
+| U    | UltraScale                                                                              |
+| 9    | Value Index                                                                             |
+| P    | UltraScale+                                                                             |
+| -L2  | Low Power                                                                               |
+| F    | [Flip-Chip (1.0 mm)](https://www.centennialsoftwaresolutions.com/post/flip-chip-1-0-mm) |
+| L    | Lid SSI                                                                                 |
+| G    | RoHS 6/6 w/ Exemption 15                                                                |
+| A    | Package Designator                                                                      |
+| 2104 | Package Pin Count                                                                       |
+| E    | Extended (Tj = 0 °C to +110 °C)                                                         |
 
 ## Virtex UltraScale+ FPGA Feature Summary
 
-<table data-hook="TableComponent"><colgroup><col><col></colgroup><tbody><tr><td data-hook="table-plugin-cell"></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-lpk3533129"><span><strong><span>VU9P</span></strong></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-r95zu33133"><span><span>System Logic Cells</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-6iiyt33136"><span><span>2,586,150</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-ln84833140"><span><span>CLB Flip-Flops</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-rca1l33143"><span><span>2,364,480</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-89afu33147"><span><span>CLB LUTs</span></span></p></td><td data-hook="table-plugin-cell"><div><ol><li dir="auto" aria-level="1" data-list-style-position="inside"><p dir="" id="viewer-4gp3o33150"><span><span>182,240</span></span></p></li></ol></div></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-sb6bc33154"><span><span>Max. Distributed RAM (Mb)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-bxpi133157"><span><span>36.1</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-pyiok33161"><span><span>Block RAM Blocks</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-zyarf33164"><span><span>2,160</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-4fs5o33168"><span><span>Block RAM (Mb)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-lb5ok33171"><span><span>75.9</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-wk6iz33175"><span><span>UltraRAM Blocks</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-usjpz33178"><span><span>960</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-0jzu333182"><span><span>UltraRAM (Mb)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-6flph33185"><span><span>270</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-e35c333189"><span><span>HBM DRAM (GB)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-74szm33192"><span><span>–</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-i5osj33196"><span><span>CMTs (1 MMCM and 2 PLLs)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-uihnh33199"><span><span>30</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-ctafl33203"><span><span>Max. HP I/O(1)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-opcqx33206"><span><span>832</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-cry7j33210"><span><span>Max. HD I/O(2)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-lxi0m33213"><span><span>0</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-gavn633217"><span><span>DSP Slices</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-82zq833220"><span><span>6,840</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-rx21933224"><span><span>System Monitor</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-2mp2a33227"><span><span>3</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-y8ce733231"><span><span>GTY Transceivers 32.75 Gb/s(3)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-bvh5e33234"><span><span>120</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-5ph9s33238"><span><span>GTM Transceivers 58.0 Gb/s</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-xlfge33241"><span><span>0</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-hwkti33245"><span><span>100G / 50G KP4 FEC</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-5cmu233248"><span><span>0</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-anxp433252"><span><span>Transceiver Fractional PLLs</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-iux2233255"><span><span>60</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-rkorg33259"><span><span>PCIE4 (PCIe Gen3 x16)(4)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-f8o6o33262"><span><span>6</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-u0q5t33266"><span><span>PCIE4C (PCIe Gen3 x16 / Gen4 x8)(4)(5)</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-jzq7i33269"><span><span>0</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-3mc4p33273"><span><span>150G Interlaken</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-55q3e33276"><span><span>9</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-858a833280"><span><span>100G Ethernet w/RS-FEC</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-5kqiq33283"><span><span>9</span></span></p></td></tr></tbody></table>
+| Specification                          | VU9P       |
+|----------------------------------------|------------|
+| System Logic Cells                     | 2,586,150  |
+| CLB Flip-Flops                         | 2,364,480  |
+| CLB LUTs                               | 182,240    |
+| Max. Distributed RAM (Mb)              | 36.1       |
+| Block RAM Blocks                       | 2,160      |
+| Block RAM (Mb)                         | 75.9       |
+| UltraRAM Blocks                        | 960        |
+| UltraRAM (Mb)                          | 270        |
+| HBM DRAM (GB)                          | –          |
+| CMTs (1 MMCM and 2 PLLs)               | 30         |
+| Max. HP I/O(1)                         | 832        |
+| Max. HD I/O(2)                         | 0          |
+| DSP Slices                             | 6,840      |
+| System Monitor                         | 3          |
+| GTY Transceivers 32.75 Gb/s(3)         | 120        |
+| GTM Transceivers 58.0 Gb/s             | 0          |
+| 100G / 50G KP4 FEC                     | 0          |
+| Transceiver Fractional PLLs            | 60         |
+| PCIE4 (PCIe Gen3 x16)(4)               | 6          |
+| PCIE4C (PCIe Gen3 x16 / Gen4 x8)(4)(5) | 0          |
+| 150G Interlaken                        | 9          |
+| 100G Ethernet w/RS-FEC                 | 9          |
 
-(1) HP = High-performance I/O with support for I/O voltage from 1.0V to 1.8V.
+---
 
-(2) HD = High-density I/O with support for I/O voltage from 1.2V to 3.3V.
-
-(3) GTY transceivers in the FLGF1924 package support data rates up to 16.3 Gb/s. See Table 14.
-
-(4) Supported PCIe configurations are determined by transceiver count.
-
-(5) This block operates in compatibility mode for 16.0 GT/s (Gen4) operation. Go to PG213, UltraScale+ Devices Integrated Block for PCI Express Product Guide, for details on compatibility mode.
+**Footnotes**  
+1. HP = High-performance I/O with support for I/O voltage from 1.0V to 1.8V.
+2. HD = High-density I/O with support for I/O voltage from 1.2V to 3.3V.
+3. GTY transceivers in the FLGF1924 package support data rates up to 16.3 Gb/s. See Table 14.
+4. Supported PCIe configurations are determined by transceiver count.
+5. This block operates in compatibility mode for 16.0 GT/s (Gen4) operation. Go to PG213, UltraScale+ Devices Integrated Block for PCI Express Product Guide, for details on compatibility mode.
 
 ## Virtex UltraScale+ Device-Package Combinations and Maximum I/Os
 
-<table data-hook="TableComponent"><colgroup><col><col><col></colgroup><tbody><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-zvt2u38626"><span><strong><span>Package (1)(2)(3)(4)(5)</span></strong></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-foud439993"><span><strong><span>Package Dimensions (mm)</span></strong></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-nxbo238632"><span><strong><span>VU9P</span></strong></span></p></td></tr><tr><td data-hook="table-plugin-cell"></td><td data-hook="table-plugin-cell"></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-95nvt38638"><span><span>HP, GTY</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-4ivvk43265"><span><span>FLGA2104</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-iv4e745605"><span><span>47.5x47.5</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-58kjs43508"><span><span>832, 52</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-f3ziq38649"><span><span>FLGB2104</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-k851945722"><span><span>47.5x47.5</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-fskrn38652"><span><span>702, 76</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-cbp0c38656"><span><span>FLGC2104</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-0ap1145842"><span><span>47.5x47.5</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-pa69z38659"><span><span>416, 104</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-yy1zf38663"><span><span>FSGD2104</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-4cgyx45963"><span><span>47.5x47.5</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-gwmbw38666"><span><span>676, 76</span></span></p></td></tr><tr><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-u1hm438670"><span><span>FLGA2577</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-zha8l46085"><span><span>52.5x52.5</span></span></p></td><td data-hook="table-plugin-cell"><p dir="auto" id="viewer-9ebmg38673"><span><span>448, 120</span></span></p></td></tr></tbody></table>
+| Package (1)(2)(3)(4)(5) | Package Dimensions (mm) | VU9P        |
+|-------------------------|--------------------------|-------------|
+|                         |                          | HP, GTY     |
+| FLGA2104                | 47.5 x 47.5             | 832, 52     |
+| FLGB2104                | 47.5 x 47.5             | 702, 76     |
+| FLGC2104                | 47.5 x 47.5             | 416, 104    |
+| FSGD2104                | 47.5 x 47.5             | 676, 76     |
+| FLGA2577                | 52.5 x 52.5             | 448, 120    |
 
-(1) Go to Ordering Information for package designation details.
+---
 
-(2) All packages have 1.0 mm ball pitch.
-
-(3) Packages with the same last letter and number sequence, e.g., A2104, are footprint compatible with all other UltraScale architecture-based devices with the same sequence. The footprint compatible devices within this family are outlined. See the UltraScale Architecture Product Selection Guide for details on inter-family migration.
-
-(4) Consult UG583, UltraScale Architecture PCB Design User Guide for specific migration details.
-
-(5) GTY transceivers in the FLGF1924 package support data rates up to 16.3 Gb/s.
+**Footnotes**  
+1. Package code definitions may vary by device family.  
+2. Dimensions are nominal, in millimeters.  
+3. See Xilinx/AMD packaging documentation for tolerances.  
+4. Pin counts and I/O assignments depend on package type.  
+5. Additional restrictions may apply for GTY/HP interfaces.
 
 ## Original Tables
 
--   UltraScale+ FPGAs Product Selection Guide (XMP103) \[ [<u><span>live</span></u>](https://docs.amd.com/v/u/en-US/ultrascale-plus-fpga-product-selection-guide) \] \[ [<u><span>cached on 2024-05-03</span></u>](https://drive.google.com/file/d/1qbExajD-FRXSpEtzsSStEn5Zoc6475QJ/view?usp=sharing) \]
+-   UltraScale+ FPGAs Product Selection Guide (XMP103) [live](https://docs.amd.com/v/u/en-US/ultrascale-plus-fpga-product-selection-guide) [cached on 2024-05-03](https://drive.google.com/file/d/1qbExajD-FRXSpEtzsSStEn5Zoc6475QJ/view?usp=sharing).
     
--   UltraScale Architecture and Product Data Sheet: Overview DS890 (v4.5) March 4, 2024 Product Specification \[ [<u><span>live</span></u>](https://docs.amd.com/v/u/en-US/ds890-ultrascale-overview) \] \[ [<u><span>cached on 2024-05-03</span></u>](https://drive.google.com/file/d/1qiKuUSRFECh60urTYCatyJpcWiBVT-nU/view?usp=sharing) \]
-    
-
-## References
-
-Board picture from https://www.xilinx.com/products/boards-and-kits/vcu118.html
+-   UltraScale Architecture and Product Data Sheet: Overview DS890 (v4.5) March 4, 2024 Product Specification [live](https://docs.amd.com/v/u/en-US/ds890-ultrascale-overview) [cached on 2024-05-03](https://drive.google.com/file/d/1qiKuUSRFECh60urTYCatyJpcWiBVT-nU/view?usp=sharing).
