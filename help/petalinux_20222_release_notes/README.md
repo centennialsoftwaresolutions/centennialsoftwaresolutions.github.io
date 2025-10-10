@@ -264,7 +264,7 @@ Sample list of components in the files 1) and 2):
 	
 		Note: more than 1000 other SW components.
 
-# 2022.2_PetaLinux_Package_List.xlcs
+# 2022.2_PetaLinux_Package_List.xlsx
 
 ## Linux Distribution OS details:
 
