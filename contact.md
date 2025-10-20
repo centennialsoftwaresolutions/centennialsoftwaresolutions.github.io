@@ -1,7 +1,10 @@
 ---
-layout: page
 title: "Contact Us"
 permalink: /contact/
+description: "Expert engineering support for AMD Zynq UltraScale+, Versal ACAP, and adaptive SoC platforms. Embedded Linux, Yocto, FPGA, and driver development."
+keywords: ["Zynq UltraScale+", "Versal ACAP", "adaptive SoC", "FPGA consulting", "embedded Linux", "Yocto BSP", "driver development"]
+image: /logo.svg
+canonical_url: https://www.centennialsoft.com/
 ---
 
 <form id="contact-form"

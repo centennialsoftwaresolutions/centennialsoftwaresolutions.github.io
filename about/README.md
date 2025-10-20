@@ -1,49 +1,52 @@
-# About Us & How We Work
+# About Centennial Software Solutions
 
-**Centennial Software Solutions LLC** provides expert support for **Vivado**, **Vitis**, **PetaLinux Tools**, and embedded systems. We help teams solve tough technical problems quickly, while documenting solutions so your engineers can build on them long after we’re done.
+At **Centennial Software Solutions LLC**, we provide expert consulting and engineering support for **AMD Zynq UltraScale+ MPSoC**, **Versal ACAP**, and other **adaptive computing platforms**.
+Our mission is simple: **solve complex technical problems quickly** and **document solutions so your engineers can build on them long after we’re done**.
 
-📞 [720-912-6065](tel:720-912-6065) | 📝 [form](/contact/) | ✉️ [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
-📍 Available for in-person meetings at **4845 Pearl East Cir, Suite 101, Boulder, CO 80301**
+📞 [720-912-6065](tel:720-912-6065)  |  📝 [Contact Form](/contact/)  |  ✉️ [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
+📍 In-person meetings available at **4845 Pearl East Cir, Suite 101, Boulder, CO 80301**
 
 ---
 
 ## Partnership, Not Just Problem-Solving
 
-* **Deep Expertise** – We solve PetaLinux Tools issues daily, so we know the pitfalls and fixes.
-* **Lasting Value** – We provide documentation so your team can continue using the solutions.
-* **Knowledge Transfer** – We explain as we go, empowering your team to solve future challenges.
-* **Flexible Support** – We offer ad-hoc support hours without requiring long-term commitments.
-
----
-
-## Rates & Pricing
-
-Our rates are flexible and based on project scope, urgency, and hours purchased. You’ll always know the terms up front — no hidden surprises.
+* **Proven Expertise** – We work with **Vivado**, **Vitis**, **PetaLinux Tools**, and **Yocto** daily, helping teams overcome real-world MPSoC and Versal development challenges.
+* **Lasting Value** – Every engagement includes clear documentation and reproducible build instructions.
+* **Knowledge Transfer** – We explain as we go, ensuring your engineers understand every step.
+* **Flexible Engagements** – Ad-hoc or milestone-based work—no long-term commitment required.
 
 ---
 
 ## Our Process
 
-1. [Call](tel:720-912-6065), fill out our [form](/contact/), or [email](mailto:help@centennialsoft.com?subject=Support%20Request) us with your problem.
-2. We’ll schedule a no-obligation call to learn more.
-3. If we can help, we’ll send you a proposal with scope, milestones, and rates.
-4. Once agreements are finalized and we receive your PO, we’ll kick things off.
-5. Each month, you’ll get a detailed Net-30 invoice for your used time.
+1. [Call](tel:720-912-6065), fill out our [form](/contact/), or [email us](mailto:help@centennialsoft.com?subject=Support%20Request) with your needs.
+2. We schedule a short, no-obligation discovery call.
+3. If there’s a fit, we’ll send a detailed proposal with scope, milestones, and rates.
+4. Once agreements are in place and your PO is received, we begin work.
+5. You’ll receive transparent Net-30 invoices each month for actual hours used.
 
 ---
 
 ## Areas of Expertise
 
-In addition to supporting **Vivado**, **Vitis**, **PetaLinux Tools**, and embedded systems, we also provide support in:
+Our engineers have deep experience across the AMD adaptive computing ecosystem, including:
 
-* **Linux** and **Yocto** development
-* Embedded systems and driver support
-* **FPGA**, **ACAP**, board bring-up, and debugging
-* Schematic reviews and design guidance
-* Software & HDL development (**C/C++**, **Verilog**, **VHDL**, **Python**, and more)
+* **FPGA, ACAP, and adaptive SoC design** – board bring-up, debug, and hardware validation
+* **Embedded Linux & Yocto** – BSP configuration, kernel and device tree customization
+* **Driver and middleware development** – PS-PL communication and peripheral enablement
+* **Software & HDL engineering** – **C/C++**, **Python**, **Verilog**, **VHDL**, and mixed-domain design
+* **System integration & performance optimization** for **Zynq UltraScale+ MPSoC** and **Versal ACAP**
+
+---
+
+## Rates & Pricing
+
+Our rates are based on project scope, urgency, and hours purchased.
+We provide **clear terms up front**—no hidden costs, no surprises.:w
 
 ---
 
 ## Already Solved?
 
-We may have already written up the solution to your problem. Browse our [Help Center](/help/), ask on our [form](/contact/), or reach out by [phone](tel:720-912-6065) or [email](mailto:help@centennialsoft.com?subject=Solved%20this%3F) and we’ll point you to it if it exists.
+We may have already published the solution you need.
+Explore our [Help Center](/help/), submit a [contact form](/contact/), or reach out by [phone](tel:720-912-6065) or [email](mailto:help@centennialsoft.com?subject=Solved%20this%3F) and we’ll direct you to it if it exists.

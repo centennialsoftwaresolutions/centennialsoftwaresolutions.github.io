@@ -4,12 +4,16 @@ plugins:
  - jekyll-remote-theme
  - jekyll-redirect-from
  - jekyll-sitemap
-title: Centennial Software Solutions
-description: Expert PetaLinux Tools Support
+title: Centennial Software Solutions LLC
+description: Expert consulting for AMD Zynq UltraScale+, Versal, and adaptive SoC platforms.
 email: help@centennialsoft.com
+url: "https://www.centennialsoft.com"
 show_downloads: false
 baseurl: ""
 header_pages:
   - about/index.md
   - help/index.md
   - contact.md
+author:
+  name: Centennial Software Solutions LLC
+  email: help@centennialsoft.com

@@ -1,25 +1,35 @@
-Expert support for **Vivado**, **Vitis**, **PetaLinux Tools**, and embedded systems.
+# Zynq UltraScale+ & Versal Experts for Embedded and FPGA Development
 
-📞 [720-912-6065](tel:720-912-6065) \| 📝 [form](/contact/) \| ✉️  [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
+Get specialized engineering support for **AMD Zynq UltraScale+ MPSoC**, **Versal ACAP**, and other **adaptive SoC platforms** — from board bring-up to Linux, drivers, and programmable logic design.
 
-------
+📞 [720-912-6065](tel:720-912-6065)  &#124;  📝 [Request Support](/contact/)  &#124;  ✉️  [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
 
-## Why Choose Us
+---
 
-- **Proven Expertise** – We solve tool and embedded systems issues daily.
-- **Practical Value** – We document solutions so your team can reuse them.
-- **Flexible Support** – Ad-hoc hours, no long-term commitment required.
+## Why Choose Centennial Software Solutions
 
-------
+* **Zynq & Versal Expertise** – We solve complex issues across the AMD adaptive computing ecosystem daily.
+* **Documented Solutions** – Every fix and workflow is fully documented for your team to reuse and extend.
+* **Flexible Consulting** – Ad-hoc or project-based support, no long-term commitments required.
+
+---
 
 ## What We Offer
 
-- **Linux** and **Yocto** development
-- **Embedded** systems and driver support
-- **FPGA**, **ACAP**, board bring-up, and debugging
-- Software & HDL development (**C/C++**, **Verilog**, **VHDL**, **Python**, and more)
+* **FPGA & SoC Development** – Board bring-up, hardware debugging, bitstream validation, and IP integration
+* **Embedded Linux & Yocto** – Custom builds, BSP configuration, and system optimization
+* **Device Drivers & Middleware** – Low-level software for PS-PL communication and peripheral enablement
+* **Versal ACAP Design Services** – AI Engine, NoC, and programmable logic development
+* **Software & HDL Engineering** – Expert-level **C/C++**, **Verilog**, **VHDL**, and **Python** development
 
-------
+---
 
-Learn more about [our process and the services we offer](/about/).
+### Start Your Project Today
+
+Whether you need **quick debugging help**, **Yocto customization**, or **end-to-end Versal system development**, we provide fast, reliable, and repeatable solutions.
+Contact us to get expert support that accelerates your embedded and FPGA projects.
+
+📞 [720-912-6065](tel:720-912-6065)  &#124;  [Get Started →](/contact/)
+
+---
 
