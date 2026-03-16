@@ -42,7 +42,7 @@ Our engineers have deep experience across the AMD adaptive computing ecosystem, 
 ## Rates & Pricing
 
 Our rates are based on project scope, urgency, and hours purchased.
-We provide **clear terms up front**—no hidden costs, no surprises.:w
+We provide **clear terms up front**—no hidden costs, no surprises.
 
 ---
 
