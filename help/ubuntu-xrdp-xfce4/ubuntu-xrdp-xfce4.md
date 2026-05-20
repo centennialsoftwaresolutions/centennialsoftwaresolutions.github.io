@@ -32,12 +32,35 @@ sudo ufw allow 3389/tcp
 sudo apt install xfce4 xfce4-goodies -y
 sudo apt install dbus-x11 -y
 ```
-5. Bypass Ubuntu's default desktop when I log in remotely. Instead, start the background communication system, `dbus-launch`,  make sure `dbus-launch` closes when I leave the session, and use it to load the lightweight desktop, `xfce4`. Then turn the remote desktop program off and immediately back on so `xrdp` reads .xsession when the connection loads into XFCE.
+5. Delete the GNOME portal and install the generic GTK/XFCE portals 
+
 ```
-echo "exec dbus-launch --exit-with-session xfce4-session" > ~/.xsession
-sudo systemctl restart xrdp
+sudo apt remove xdg-desktop-portal-gnome -y
+sudo apt install xdg-desktop-portal-gtk xdg-desktop-portal-xapp -y
 ```
-6. Get the IP of the Ubuntu computer to connect to from Windows.
+
+6. Tell Ubuntu what our graphical environment is. Connect remote sessions directly to Ubuntu's native systemd so we can use snaps and GNOME terminal. Give the remote screen to the background service so terminal windows appear on our screen instead of the physical monitor. Start the lightweight desktop.
+
+```
+cat << 'EOF' > ~/.xsession
+export XDG_SESSION_TYPE=x11 #
+export XDG_CURRENT_DESKTOP=XFCE #
+export XDG_RUNTIME_DIR=/run/user/$UID
+export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
+# Force background services (like gnome-terminal-server) to see remote screen
+dbus-update-activation-environment --systemd DISPLAY
+exec xfce4-session
+EOF
+```
+6. Log off and log back on. Use a faster terminal.  
+
+```
+sudo apt install xfce4-terminal -y
+sudo update-alternatives --set x-terminal-emulator /usr/bin/xfce4-terminal.wrapper
+```
+
+7. Get the IP of the Ubuntu computer to connect to from Windows.
+
 ```
 ip a # Get the IP
 ```
