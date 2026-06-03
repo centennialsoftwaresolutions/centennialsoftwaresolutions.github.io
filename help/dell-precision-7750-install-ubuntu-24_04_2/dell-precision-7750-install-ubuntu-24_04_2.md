@@ -48,3 +48,23 @@ Note: Not all steps were listed or photographed. The log was prepared as a recor
 12. Saw the boot screen:
 
 ![welcome](welcome.jpg)
+
+Dell Precision 7750 Specs:
+
+- Intel Core Processor i9-10885H (8 Core, 16MB Cache, 2.40 GHz to 5.30 GHz, 45W,vPro)
+- 64GB, 2X32GB,DDR4 2933Mhz Non-ECC Memory
+- NVIDIA Quadro RTX 5000 w/16GB GDDR6
+- Intel(R) Wi-Fi 6 2x2 (Gig+) and Bluetooth 5.1
+- Intel AX201 2x2 + Bluetooth 5.1 Driver
+- M.2 1TB PCIe NVMe Class 40 Solid State Drive
+- 17.3-inch, FHD, 1920 x 1080, 60 Hz, Anti-Glare, Non Touchscreen, 45% NTSC, 220 Nits, WVA
+- 6 Cell 95Whr ExpressCharge Capable Battery
+
+
+
+
+
+
+
+
+
