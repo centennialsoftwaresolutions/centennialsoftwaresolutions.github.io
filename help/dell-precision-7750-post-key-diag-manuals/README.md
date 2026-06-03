@@ -1,7 +1,7 @@
 # Dell Mobile Precision 7750 
 
-- POST: `F2`
-- System Setup: `F12` 
+- Boot Menu: `F12` 
+- System Setup: `F2`
 - [Service Manual](precision-7550-7750-external-display-connection-guide_en-us.pdf)
 
 # Diagnostics
