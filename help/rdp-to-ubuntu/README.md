@@ -77,7 +77,45 @@ echo "xfce4-session" > ~/.xsession
 sudo systemctl restart xrdp
 sudo systemctl enable xrdp
 ```
+Disable suspend at the kernel:
+
+```
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+```
+
+Use `unmask` to re-enable. 
+
+If you see in dmesg:
+
+```
+[13050.392304] i915 0000:00:02.0: [drm] *ERROR* Failed to probe lspcon
+[13050.392308] i915 0000:00:02.0: [drm] *ERROR* LSPCON init failed on port D
+```
+
+Turn off DRM (Direct Rendering Manager) polling:
+
+```
+sudo vi /etc/default/grub
+```
+
+Use:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash drm_kms_helper.poll=0"
+```
+
+```
+sudo update-grub
+```
+
+Reboot:
+
+```
+sudo systemctl reboot
+```
+
 Get the `IP` address of the computer for RDP connect:
+
 ```
 ip a
 ```
