@@ -72,7 +72,7 @@ Below is what your set up should look like:
 
 You should see a display on your screen that may or may look as curved as the one down below. If your screen looks like either of the pictures below, you need to calibrate your probe.
 
-![probe slope example](./example-slope-up.png) ![probe slope example down](./probe-slope-down.png)
+![probe slope example](./example-slope-down.png) ![probe slope example down](./probe-slope-up.png)
 
 On the back of the probe should be a hole with a set screw. Turn that knob until the square waveform is the straightest that it can be. It should look like the picture below.
 
