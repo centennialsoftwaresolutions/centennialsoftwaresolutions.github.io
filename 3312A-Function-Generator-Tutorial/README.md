@@ -272,7 +272,7 @@ Compare each function modulation with your own device. Each Function is using si
 
 <u>FM Sine:</u>
 
-![sin fm function](./sin-fm-function.jpegg)
+![sin fm function](./sin-fm-function.jpeg)
 
 <u>FM Triangle:</u>
 
