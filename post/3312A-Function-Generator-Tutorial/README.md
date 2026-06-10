@@ -118,7 +118,7 @@ To set up a sine wave function on your oscilloscope, the principles are similar 
 
 1.)  Set your coupling to AC on the oscilloscope
 
-2.)  Press the square function button, 
+2.)  Press the sine function button, 
 
 3.)  Press the 1 Range Hz button 
 
@@ -164,7 +164,7 @@ To set up a triangle wave function on your oscilloscope, the principles are simi
 
 1.)  Set your coupling to AC on the oscilloscope
 
-2.)  Press the square function button, 
+2.)  Press the triangle function button, 
 
 3.)  Press the 1 Range Hz button 
 
