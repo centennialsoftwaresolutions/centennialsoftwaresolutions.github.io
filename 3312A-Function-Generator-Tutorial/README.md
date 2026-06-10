@@ -2,7 +2,7 @@
 
 This post helps a user go through the basic functions of the Hewlett-Packard HP 3312A Function Generator. Through feedback and surveys, this post will be updated to include more complex functions and questions on how to use this device for an activity. 
 
-![image-Front_Panel_Start_Reference](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223334748.png)
+![Front_Panel_Start_Reference](./front-panel-start-reference.png)
 
 # Important Reference Links:
 
@@ -36,13 +36,13 @@ When powering on the machine, you must be very mindful on the power being receiv
 
 First, use a known working multimeter to measure the voltage coming out of your power outlet. Second, on the back of the HP 3312A, there are two switches. The first one is for smaller voltages, 100V and 120V. The second one has large ones of 240V and 220V. For the first switch, as shown below, has two setting. 
 
-![image-Powering_On_Reference](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223229426.png)
+![Powering_On_Reference](./powering-on-back-reference.png)
 
 Switch it to the left hen your voltage is closer to 100 volts of 220 volts, and switch it to the left when your voltage is closer to 120 volts and 240 volts. The second switch determines the higher or lower setting, switch it to the left when your voltage is closer to 100 volts and 120 volts, and to the right when your voltage is closer to 220 volts and 240 volts. If your voltage is between these values, estimate to the closest value.
 
 After you have confirmed that your device will not blow up, set your knobs to the positions as seen below, with all buttons set in the out position. This ensures that when you are testing your generator, you can see how each button works with a default standard.
 
-![image-Front_Panel](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223259397.png)
+![Front_Panel](./powering-on-front-reference.png)
 
 This function generator has markings to show the default position of that function. Please refer to the testing section for more information on how to calibrate your generator. 
 
@@ -74,11 +74,11 @@ You want to start with your square wave because this will help you calibrate and
 
 If you see sloping such as this:
 
-![image-Square_Wave_AC_Coupling](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223441749.png)
+![Square_Wave_AC_Coupling](./ac-sloping-example.png)
 
 This is great! Your wave should look like this on un-scaled AC coupling output. Simply switch your coupling to DC. It should now look like this:
 
-![image-Square_Wave_AC_Coupling_FIX](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223514212.png)
+![Square_Wave_AC_Coupling_FIX](./dc-sloping-example.png)
 
 Dc should be used for very low ranges, ≥100 Hz, while AC should be used for ≤100 Hz. 
 
@@ -90,23 +90,23 @@ Next, once you are set on DC coupling, change the following buttons to the corre
 
 Press 1 range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 50 ms/div:
 
-![image-1_Square_Range_HZ_](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223546011.png)
+![1_Square_Range_HZ_](./square-1-hz-50-ms.png)
 
 Press 100 range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 µs/div:
 
-![image-100_Square_Range_HZ_](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223611746.png)
+![image-100_Square_Range_HZ_](./square-100-hz-500-micros.png)
 
 Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div:
 
-![image-100k_Square_Range_HZ_](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223635856.png)
+![image-100k_Square_Range_HZ_](./square-100k-hz-500-ns.png)
 
 Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div, without the 50 ohm adapter:
 
-![image-100k_Square_Range_HZ_No_Adapter](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223718447.png)
+![image-100k_Square_Range_HZ_No_Adapter](./square-100k-hz-500-ns-no-50-ohm.png)
 
 As you can see, the amplitude doubles, and due to the lack of dampening that the converter provides, a small tick in the wave is shown consistently.
 
-![image-Square_100k_Range_HZ_No_Adapter_Zoom](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223754318.png)
+![image-Square_100k_Range_HZ_No_Adapter_Zoom](./square-no-50-ohm.png)
 
 Here is a zoomed in photo of that tick, this is unwanted, so having this adapter provides a nice cushion of accuracy for your wave, to keep a clean wave within your circuit.
 
@@ -138,23 +138,23 @@ For the following examples, the frequency is set to 6.
 
 Press 1 range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 50 ms/div:
 
-![image-1_Sine_Range_Hz](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517223847306.png)
+![1_Sine_Range_Hz](./sine-1-hz-50-ms.png)
 
 Press 100 range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 µs/div:
 
-![image-100_Sine_Range_HZ](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517224430375.png)
+![100_Sine_Range_HZ](./sine-100-hz-500-micros.png)
 
 Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div:
 
-![image-100k_Sine_Range_HZ](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517224436989.png)
+![100k_Sine_Range_HZ](./sine-100k-hz-500-ns.png)
 
 Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div, without the 50 ohm adapter:
 
-![image-100k_Sine_Range_HZ_No_Adapter](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517224520710.png)
+![100k_Sine_Range_HZ_No_Adapter](./sine-100k-hz-500-ns-no-50-ohm.png)
 
 Zoomed in photo of tick, slight dip in sine wave left wave peak leading into a “squiggle”.
 
-![image-100k_Sine_Range_HZ_No_Adapter_Zoom](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517224536626.png)
+![100k_Sine_Range_HZ_No_Adapter_Zoom](./sine-no-50-ohm.png)
 
 ## Triangle Waves
 
@@ -178,7 +178,7 @@ To set up a triangle wave function on your oscilloscope, the principles are simi
 
 8.)  Use the vertical knob to adjust your visual to about 20-100 ms/div
 
-![image-AC_Coupling_Tri_Wave](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225847595.png)
+![image-AC_Coupling_Tri_Wave](./triangle-ac.png)
 
 Set with at a range of 1 Hz, and a frequency of 6. 
 
@@ -186,25 +186,23 @@ Set with at a range of 1 Hz, and a frequency of 6.
 
 Press 1 range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 50 ms/div:
 
-![image-1_Range_Hz_Tri](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225904292.png)
+![image-1_Range_Hz_Tri](./triangle-1-hz-50-ms.png)
 
 Press 100 range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 µs/div:
 
-![image-100_Range_HZ_Tri](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225936350.png)
+![image-100_Range_HZ_Tri](./triangle-100-hz-500-micros.png)
 
 Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div:
 
-![image-100k_Range_HZ_Tri](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517230004172.png)
+![image-100k_Range_HZ_Tri](./triangle-100k-hz-500-ns.png)
 
 Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div, without the 50 ohm adapter:
 
-![image-100k_Range_Hz_Tri_No_Adapter](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517230020454.png)
+![image-100k_Range_Hz_Tri_No_Adapter](./triangle-100k-hz-500-ns-no-50-ohm.png)
 
 Zoomed in photo of tick. Slightly dips in the right side of the wave.
 
-![image-100k_Range_Hz_Tri_No_Adapter_Zoom](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517230040678.png)
-
-
+![image-100k_Range_Hz_Tri_No_Adapter_Zoom](./triangle-no-50-ohm.png)
 
 # Modulation
 
@@ -228,45 +226,43 @@ Below are all possible combinations of functions with AM modulation. Compare wit
 
 Sine modulation – Sine Function:
 
-![image-Sine_Mod_Sine_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225217086.png)
+![Sine_Mod_Sine_Func](./sine_mod_sine_func.png)
 
 Sine modulation – Triangle Function:
 
-![image-Sine_Mod_Tri_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225158145.png)
+![Sine_Mod_Tri_Func](./sine-mod-tri-func.png)
 
 Sine modulation – Square Function:
 
-![image-Sine_Mod_Squ_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225138734.png)
+![Sine_Mod_Squ_Func](./sine-mod-square-func.png)
 
 <u>AM Triangle:</u>
 
 Triangle modulation – Sine Function:
 
-![image-Tri_Mod_Sine_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225117744.png)
+![Tri_Mod_Sine_Func](./tri-mod-sine-func.png)
 
 Triangle modulation – Triangle Function:
 
-![image-Tri_Mod_Tri_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225101457.png)
-
-
+![image-Tri_Mod_Tri_Func](./tri-mod-tri-func.png)
 
 Triangle modulation – Square Function:
 
-![image-Tri_Mod_Square_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225030932.png)
+![image-Tri_Mod_Square_Func](./tri-mod-square-func.png)
 
 <u>AM Square:</u>
 
 Square modulation – Sine Function:
 
-![image-Square_Mod_Sine_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225005160.png)
+![Square_Mod_Sine_Func](./square-mod-sine-func.png)
 
 Square modulation – Triangle Function:
 
-![image-Square_Mod_Triangle_func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517224942790.png)
+![Square_Mod_Triangle_func](./square-mod-tri-func.png)
 
 Square modulation – Square Function:
 
-![image-Square_Mod_Square_Func](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517224925633.png)
+![image-Square_Mod_Square_Func](./square-mod-square-func.png)
 
 ## FM
 
@@ -276,15 +272,15 @@ Compare each function modulation with your own device. Each Function is using si
 
 <u>FM Sine:</u>
 
-![sin fm function](C:\Users\tatum\OneDrive\zach job\function generator tutorial\sin fm function.jpeg)
+![sin fm function](./sin-fm-function.jpegg)
 
 <u>FM Triangle:</u>
 
-![triangle fm function](C:\Users\tatum\OneDrive\zach job\function generator tutorial\triangle fm function.jpeg)
+![triangle fm function](./triangle-fm-function.jpeg)
 
 <u>FM Square:</u>
 
-![square fm function](C:\Users\tatum\OneDrive\zach job\function generator tutorial\square fm function.jpeg)
+![square fm function](./square-fm-function.jpeg)
 
 ## Sweep
 
@@ -301,15 +297,15 @@ Compare each function modulation with your own device.
 
 <u>Sweep Sine:</u>
 
-![sin swp function](C:\Users\tatum\OneDrive\zach job\function generator tutorial\sin swp function.jpeg)
+![sin swp function](./sine-sweep-function.jpeg)
 
 <u>Sweep Triangle:</u>
 
-![triangle swp function](C:\Users\tatum\OneDrive\zach job\function generator tutorial\triangle swp function.jpeg)
+![triangle swp function](./triangle-sweep-function.jpeg)
 
 <u>Sweep Square:</u>
 
-![square swp function](C:\Users\tatum\OneDrive\zach job\function generator tutorial\square swp function.jpeg)
+![square swp function](./square-sweep-function.jpeg)
 
 # Pulses
 
@@ -329,14 +325,14 @@ Below are Single and Multiple Pule examples, with set buttons and dials for each
 
 ## Single Pulse
 
-![image-Single_Pulse_Screen](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225247385.png)
+![Single_Pulse_Screen](./single-pulse.jpeg)
 
-![image-Single_Pulse_FP](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225304601.png)
+![Single_Pulse_FP](./single-pulse-buttons.png)
 
 ## Multiple Pulse
 
-![image-Multiple_Pulse_Screen](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225335124.png)
+![Multiple_Pulse_Screen](./multiple-pulse.png)
 
-![image-Multiple_Pulse_FP](C:\Users\tatum\AppData\Roaming\Typora\typora-user-images\image-20260517225351523.png)
+![Multiple_Pulse_FP](./multiple-pulse-buttons.png)
 
 For the multiple option, the RANGE HZ button works best in the 100 mode, although don’t be shy to use other options. This was the easiest option to use for most range buttons.
