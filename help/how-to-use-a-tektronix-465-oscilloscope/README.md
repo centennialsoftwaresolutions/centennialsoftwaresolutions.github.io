@@ -4,14 +4,13 @@
 
 This post goes through the basic functions and measurements you can do with the Tektronix 465 Oscilloscope. Through feedback and upon request, this post will be updated to include more complex functions and questions on how to use this device. If there are any questions, please refer to the sources below, and if they are not answered, please feel free to comment below the last video of our YouTube tutorial. 
 
-[YouTube Channel]: https://www.youtube.com/@centennialsoft	"Centennial YouTube Channel"
-[Service Manual]: https://w140.com/tekwiki/images/3/32/070-1330-00_465Service.pdf 	"465 Tektronix Oscilloscope Service Manual"
+<https://www.youtube.com/@centennialsoft>
+
+<https://w140.com/tekwiki/images/3/32/070-1330-00_465Service.pdf>
 
 This oscilloscope guide does not include the DM44 function, as shown in most manuals.
 
 This tutorial can be used with an older function generator, but when calibrating and learning, please use a known-working function generator so you can see the oscilloscope's base workings and offsets. Once you know whether your device works properly, you can make accurate measurements based on your known working measurements.
-
-[TOC]
 
 # Equipment
 
