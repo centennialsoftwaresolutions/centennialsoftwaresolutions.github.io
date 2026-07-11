@@ -52,8 +52,8 @@ dbus-update-activation-environment --systemd DISPLAY
 exec xfce4-session
 EOF
 ```
-6. Log off and log back on. 
-6. Use a faster terminal.  
+7. Log off and log back on. 
+8. Use a faster terminal.  
 
 ```
 sudo apt install xfce4-terminal -y
@@ -66,17 +66,20 @@ Get the GNOME Terminal back with:
 sudo update-alternatives --set x-terminal-emulator /usr/bin/gnome-terminal.wrapper
 ```
 
-8. Get the IP of the Ubuntu computer to connect to from Windows.
+9. Get the IP of the Ubuntu computer to connect to from Windows.
 
 ```
 ip a # Get the IP
 ```
-9. On Windows, run:
+
+10. Reboot the Ubuntu machine.
+
+11. On Windows, run:
 
 ```
 mstsc.exe # aka Remote Desktop Connection
 ```
-10. Configure with the GUI ands connect.
+12. Configure with the GUI and connect.
 
 # Versions Tested
 
