@@ -1,6 +1,6 @@
-# About Centennial Software Solutions
+# About Centennial Software Solutions®
 
-At **Centennial Software Solutions LLC**, we provide expert consulting and engineering support for **AMD Zynq UltraScale+ MPSoC**, **Versal ACAP**, and other **adaptive computing platforms**.
+At **Centennial Software Solutions LLC**, we provide expert consulting and engineering support for **AMD Zynq™ UltraScale+™ MPSoC**, **Versal™**, and other **adaptive computing platforms**.
 Our mission is simple: **solve complex technical problems quickly** and **document solutions so your engineers can build on them long after we’re done**.
 
 📞 [720-912-6065](tel:720-912-6065)  |  📝 [Contact Form](/contact/)  |  ✉️ [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
@@ -10,7 +10,7 @@ Our mission is simple: **solve complex technical problems quickly** and **docume
 
 ## Partnership, Not Just Problem-Solving
 
-* **Proven Expertise** – We work with **Vivado**, **Vitis**, **PetaLinux Tools**, and **Yocto** daily, helping teams overcome real-world MPSoC and Versal development challenges.
+* **Proven Expertise** – We work with **Vivado**, **Vitis**, **PetaLinux Tools**, and **Yocto®** daily, helping teams overcome real-world MPSoC and Versal development challenges.
 * **Lasting Value** – Every engagement includes clear documentation and reproducible build instructions.
 * **Knowledge Transfer** – We explain as we go, ensuring your engineers understand every step.
 * **Flexible Engagements** – Ad-hoc or milestone-based work—no long-term commitment required.
@@ -31,11 +31,11 @@ Our mission is simple: **solve complex technical problems quickly** and **docume
 
 Our engineers have deep experience across the AMD adaptive computing ecosystem, including:
 
-* **FPGA, ACAP, and adaptive SoC design** – board bring-up, debug, and hardware validation
-* **Embedded Linux & Yocto** – BSP configuration, kernel and device tree customization
+* **FPGA and adaptive SoC design** – board bring-up, debug, and hardware validation
+* **Embedded Linux® & Yocto** – BSP configuration, kernel and device tree customization
 * **Driver and middleware development** – PS-PL communication and peripheral enablement
 * **Software & HDL engineering** – **C/C++**, **Python**, **Verilog**, **VHDL**, and mixed-domain design
-* **System integration & performance optimization** for **Zynq UltraScale+ MPSoC** and **Versal ACAP**
+* **System integration & performance optimization** for **Zynq UltraScale+ MPSoC** and **Versal**
 
 ---
 
