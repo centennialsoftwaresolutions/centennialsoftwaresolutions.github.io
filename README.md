@@ -6,7 +6,7 @@ Get specialized engineering support for **AMD Zynq™ UltraScale+™ MPSoC**, an
 
 ---
 
-## Why Choose Centennial Software Solutions
+## Why Choose Centennial Software Solutions®
 
 * **Zynq & Versal Expertise** – We solve complex issues across the AMD adaptive computing ecosystem daily.
 * **Documented Solutions** – Every fix and workflow is fully documented for your team to reuse and extend.
