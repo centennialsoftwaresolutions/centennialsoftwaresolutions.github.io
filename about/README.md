@@ -1,6 +1,6 @@
-# About Centennial Software Solutions®
+# About Centennial Software Solutions
 
-At **Centennial Software Solutions LLC**, we provide expert consulting and engineering support for **AMD Zynq™ UltraScale+™ MPSoC**, **Versal™**, and other **adaptive computing platforms**.
+At **Centennial Software Solutions® LLC**, we provide expert consulting and engineering support for **AMD Zynq™ UltraScale+™ MPSoC**, **Versal™**, and other **adaptive computing platforms**.
 Our mission is simple: **solve complex technical problems quickly** and **document solutions so your engineers can build on them long after we’re done**.
 
 📞 [720-912-6065](tel:720-912-6065)  |  📝 [Contact Form](/contact/)  |  ✉️ [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
