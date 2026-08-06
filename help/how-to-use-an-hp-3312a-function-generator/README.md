@@ -8,16 +8,14 @@ This post helps a user go through the basic functions of the Hewlett-Packard HP 
 
 If there are any questions, please refer to the following sources.
 
-[YouTube Channel]: https://www.youtube.com/@centennialsoft	"Centennial YouTube Channel"
-[Operation Manual]: https://xdevs.com/doc/HP_Agilent_Keysight/HP%203312A%20Operation%20Only.pdf	"3312A Function Generator Operation Manual"
+<https://www.youtube.com/@centennialsof>
+<https://xdevs.com/doc/HP_Agilent_Keysight/HP%203312A%20Operation%20Only.pdf>
 
 # Equipment
 
 The equipment below is required for use and testing on circuits. With function generators, especially older models like this one, it is highly recommended to use an oscilloscope to verify your measurements and outputs, unless you plan to test continuously to maintain consistent accuracy over a prolonged period of time. The equipment below is all that you will ever need for a function generator to use with a circuit, but it is much more than what you need to test a function generator. 
 
 50 ohm feedthrough adapter
-
-This will be used for 
 
 2-3 BNC cables
 
@@ -39,7 +37,7 @@ First, use a known-good multimeter to measure the voltage of your power outlet. 
 
 Switch the first switch to the left when your voltage is closer to 100 volts or 220 volts, and to the right when your voltage is closer to 120 volts or 240 volts. The second switch determines the higher or lower setting. Switch the second switch to the left when your voltage is closer to 100 or 120 volts, and to the right when your voltage is closer to 220 or 240 volts. If your voltage falls between these values, round to the nearest value.
 
-After setting the device to the proper voltage regulation, set your knobs to the positions shown below, with all blue buttons set in the out position. This ensures that when you test your generator, you can see how each button works as the default.
+After setting the device to the proper voltage regulation, set all knobs to the positions shown below, with all blue buttons set in the out position. This ensures that when testing the generator, you can see how each button works as the default.
 
 ![Front_Panel](./powering-on-front-reference.png)
 
@@ -48,6 +46,8 @@ This function generator has markings to show the default position of that functi
 # Functions
 
 This function generator has three main functions that form the basis of all outputted waves. The first universal step is to connect your function generator to a known-working oscilloscope with a BNC cable and a 50 ohm feedthrough adapter. The 50 ohm adapter should be connected to the oscilloscope, and not the function generator. This adapter helps with monitoring output, and even though it is not always necessary with newer models, older models usually need the converter. If your oscilloscope has a receiving impedance of 1 M, you will need this adapter.
+
+When setting the frequency, this tutorial will refer to the frequency dial as FREQUENCY and the buttons above the dial as RANGE HZ. Both of these settings are needed to set the frequency. The buttons at the top set the range of frequency, as listed, and the frequency dial sets the exact number within that range. For instance, pressing the RANGE HZ button of 1k sets the function generator frequency range to 1000 Hz. The dial can then set the frequency between the range of 100 Hz and 13000 Hz.
 
 ## Square Waves
 
@@ -59,17 +59,17 @@ Start with a square wave because this will help calibrate and visualize wave ina
 
 2.)  Press the square function button
 
-3.)  Press the 1 Range Hz button 
+3.)  Press the 10 Range Hz button 
 
 4.)  Set AMPLITUDE to 1
 
-5.)  Keep TRIGGER PHASE to free run
+5.)  Keep the TRIGGER PHASE to free run
 
 6.)  Set FREQUENCY from 1-6
 
-7.)  Use the horizontal knob to adjust the visual to about 300-1.5 V/div
+7.)  Use the horizontal knob to adjust the visual to about 200 mV/div
 
-8.)  Use the vertical knob to adjust the visual to about 20-100 ms/div
+8.)  Use the vertical knob to adjust the visual to about 5 ms/div
 
 If you see sloping such as this:
 
@@ -97,7 +97,7 @@ Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 5
 
 ![image-100k_Square_Range_HZ_](./square-100k-hz-500-ns.png)
 
-Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div, without the 50 ohm adapter:
+Press 100k range Hz, oscilloscope vertical set to 500 mV/div and horizontal to 500 ns/div, without the 50 ohm adapter:
 
 ![image-100k_Square_Range_HZ_No_Adapter](./square-100k-hz-500-ns-no-50-ohm.png)
 
@@ -121,7 +121,7 @@ To set up a sine wave function on the function generator, the principles are sim
 
 4.)  Set AMPLITUDE to 1
 
-5.)  Keep TRIGGER PHASE to free run
+5.)  Keep the TRIGGER PHASE to free run
 
 6.)  Set FREQUENCY from 1-6
 
@@ -157,13 +157,13 @@ Zoomed in photo of tick, slight dip in sine wave, left wave peak leading into a 
 
 ## Triangle Waves
 
-To set up a triangle wave function on your oscilloscope, the principles are similar if not the same as the square function. 
+To set up a triangle wave function on your oscilloscope, the principles are similar, if not the same, as the square function. 
 
 ### AC Coupling for Triangle Waves
 
 1.)  Set your coupling to AC on the oscilloscope
 
-2.)  Press the sine function button
+2.)  Press the triangle function button
 
 3.)  Press the 1 Range Hz button 
 
@@ -177,7 +177,7 @@ To set up a triangle wave function on your oscilloscope, the principles are simi
 
 8.)  Use the vertical knob to adjust the visual to about 20-100 ms/div
 
-Set at a range of 1 Hz, and a frequency of 6. 
+Set at a range of 1 Hz and a frequency of 6. 
 
 ![image-AC_Coupling_Tri_Wave](./triangle-ac.png)
 
@@ -195,11 +195,11 @@ Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 5
 
 ![image-100k_Range_HZ_Tri](./triangle-100k-hz-500-ns.png)
 
-Press 100k range Hz, oscilloscope vertical set to 200 mV/div and horizontal to 500 ns/div, without the 50 ohm adapter:
+Press 100k range Hz, oscilloscope vertical set to 500 mV/div and horizontal to 500 ns/div, without the 50 ohm adapter:
 
 ![image-100k_Range_Hz_Tri_No_Adapter](./triangle-100k-hz-500-ns-no-50-ohm.png)
 
-Zoomed in photo of tick. Slightly dips in the right side of the wave.
+Zoomed-in photo of a tick. Slightly dips on the right side of the wave.
 
 ![image-100k_Range_Hz_Tri_No_Adapter_Zoom](./triangle-no-50-ohm.png)
 
@@ -265,7 +265,7 @@ Square modulation – Square Function:
 
 ## FM
 
-To use the FM modulation function, start with selecting the sine function and sine modulation. Adjust Delta F START and range for desired results. SYM modulation must be in the calibrated position. This modulation effects the horizontal components, so zooming out on a slower modulation will show a slight trend, although the proper way to view this modulation is at the normal viewing standard.
+To use the FM modulation function, start by selecting the sine function and sine modulation. Adjust Delta F START and range for desired results. SYM modulation must be in the calibrated position. This modulation affects the horizontal components, so zooming out on a slower modulation will show a slight trend, although the proper way to view this modulation is at the normal viewing standard.
 
 Compare each function modulation with your own device. Each Function is using sine modulation.
 
@@ -283,13 +283,13 @@ Compare each function modulation with your own device. Each Function is using si
 
 ## Sweep
 
-The Sweep modulation function is mainly used for testing a circuit and its response to rapidly changing frequency over time. To use the Sweep modulation function, start with selecting just the sine function, and making sure Delta F is set to its lowest point or 0. 
+The Sweep modulation function is mainly used for testing a circuit and its response to rapidly changing frequency over time. To use the Sweep modulation function, start by selecting just the sine function and making sure Delta F is set to its lowest point, or 0. 
 
-1. Set the stop frequency with the FREQUENCY dial
-2. Press the SWP button
-3. Set the RANGE HZ knob to 0
-4. Set the start frequency with the Delta F
-5. Adjust the RANGE Hz and Vernier knob for repetition rate
+1. Set the stop frequency with the FREQUENCY dial.
+2. Press the SWP button.
+3. Set the RANGE HZ knob to 0.
+4. Set the start frequency with the Delta F.
+5. Adjust the RANGE Hz and Vernier knob for repetition rate.
 6. Adjust the retrace line with the modulation SYM dial.
 
 Compare each function modulation with your own device. 
