@@ -20,16 +20,17 @@ Installing the VNC Server
 
 It is expected that the VNC server software is pre-installed. Execute the
 following commands to ensure that it is:
-
+```
 sudo apt update
 sudo apt install vino
-
+```
 ----------------------------------------------------------------------
 Enabling the VNC Server
 ----------------------------------------------------------------------
 
 Execute the following commands to enable the VNC server:
 
+```
 # Enable the VNC server to start each time you log in
 mkdir -p ~/.config/autostart
 cp /usr/share/applications/vino-server.desktop ~/.config/autostart
@@ -45,6 +46,7 @@ gsettings set org.gnome.Vino vnc-password $(echo -n 'thepassword'|base64)
 
 # Reboot the system so that the settings take effect
 sudo reboot
+```
 
 The VNC server is only available after you have logged in to Jetson locally. If
 you wish VNC to be available automatically, use the system settings application
@@ -60,9 +62,9 @@ remmina. Use your own favorite client for Windows or MacOS.
 
 To connect, you will need to know the IP address of the Linux for Tegra system.
 Execute the following command to determine the IP address:
-
+```
 ifconfig
-
+```
 Search the output for the text "inet addr:" followed by a sequence of four
 numbers, for the relevant network interface (e.g. eth0 for wired Ethernet,
 wlan0 for WiFi, or l4tbr0 for the USB device mode Ethernet connection).
@@ -75,7 +77,7 @@ The desktop resolution is typically determined by the capabilities of the
 display that is attached to Jetson. If no display is attached, a default
 resolution of 640x480 is selected. To use a different resolution, edit
 /etc/X11/xorg.conf and append the following lines:
-
+```
 Section "Screen"
    Identifier    "Default Screen"
    Monitor       "Configured Monitor"
@@ -85,3 +87,4 @@ Section "Screen"
        Virtual 1280 800 # Modify the resolution by editing these values
    EndSubSection
 EndSection
+```
