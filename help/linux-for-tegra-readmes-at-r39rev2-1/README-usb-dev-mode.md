@@ -59,13 +59,13 @@ Once the Ethernet device is configured, use SSH to connect to the Jetson device.
 
 SSH is natively available on Linux and Macintosh operating systems. Connect using
 IPv6 with the following command:
-
+```
 ssh nvidia@fe80::1%usb0
-
+```
 Connect using IPv4 with the following command:
-
+```
 ssh nvidia@192.168.55.1
-
+```
 On Windows, use the PuTTY application.
 
 Ethernet on Linux
@@ -79,9 +79,9 @@ network configuration tool (e.g. Network Manager), to disable one of the two
 USB Ethernet interfaces implemented by the Jetson device.
 
 View available Ethernet devices with the following command:
-
+```
 /sbin/ifconfig -a
-
+```
 Knowledge of the Ethernet device name is required in order to use IPv6
 link-local addresses.
 
@@ -89,9 +89,9 @@ Use the following procedure to configure your host as a gateway for Jetson.
 
 1. Enable IP forwarding with your host's configuration tools, or by running
    the following command as root:
-
+```
    echo 1 > /proc/sys/net/ipv4/ip_forward
-
+```
    If your host system is connected to multiple networks at the same time,
    please consider any security implications of this configuration change.
 
@@ -100,9 +100,9 @@ Use the following procedure to configure your host as a gateway for Jetson.
 
 2. Enable Network Address Translation (NAT) using your host's configuration
    tools to do this, or by running the following command as root:
-
+```
    iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to 192.168.1.100
-
+```
    where:
     eth0 is the name of your host's upstream Ethernet interface.
     192.168.1.100 is your host's IP address on that interface.
