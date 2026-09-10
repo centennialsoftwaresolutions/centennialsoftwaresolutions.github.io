@@ -20,11 +20,11 @@ Installing Network Manager
 
 It is expected that the Network manager software is pre-installed. Execute the
 following command to ensure that it is:
-
+```
 sudo apt update
 sudo apt install network-manager
 sudo service NetworkManager start
-
+```
 ----------------------------------------------------------------------
 Using the Command Line
 ----------------------------------------------------------------------
@@ -32,9 +32,9 @@ Using the Command Line
 Execute the following command, having replaced SSID with the name of the
 network you wish to connect to, and PASSWORD with the password/passphrase for
 that network.
-
+```
 sudo nmcli device wifi connect 'SSID' password 'PASSWORD'
-
+```
 ----------------------------------------------------------------------
 Using the Graphical Interface
 ----------------------------------------------------------------------
