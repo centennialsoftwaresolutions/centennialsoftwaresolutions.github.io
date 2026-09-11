@@ -1,15 +1,19 @@
-replace-ubuntu-snap-firefox-with-mozilla-deb
+# Get non-snap Firefox 
 
-Get non-snap Firefox: 
 
+After seeing this error I replaced Ubuntu's Firefox snap using the steps listed:
+```
+user@demo:~/Desktop$ which firefox
+/usr/bin/firefox
+user@demo:~/Desktop$ /usr/bin/firefox 
+2026/09/11 13:05:09.480118 cmd_run.go:1614: WARNING: cannot start document portal: Expected portal at "/run/user/1000/doc", got "/home/user/.cache/doc"
+/user.slice/user-1000.slice/session-c2.scope is not a snap cgroup for tag snap.firefox.firefox
+```
 Remove SNAP:
-
 ```
 sudo snap remove firefox
 ```
-
 Import the Mozilla repo:
-
 ```
 # Create the keyring directory if it doesn't exist
 sudo install -d -m 0755 /etc/apt/keyrings
@@ -22,7 +26,6 @@ echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://package
 ```
 
 Get actual Firefox:
-
 ```
 echo '
 Package: *
@@ -32,7 +35,6 @@ Pin-Priority: 1000
 ```
 
 Check:
-
 ```
 user@demo:~/Desktop$ cat /etc/apt/preferences.d/mozilla
 
@@ -42,19 +44,16 @@ Pin-Priority: 1000
 ```
 
 Get Firefox:
-
 ```
 sudo apt update && sudo apt install firefox
 ```
 
 Check:
-
 ```
 apt-cache policy firefox
 ```
 
 Example output:
-
 ```
 Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
 orin@demo:~/Desktop$ apt-cache policy firefox
