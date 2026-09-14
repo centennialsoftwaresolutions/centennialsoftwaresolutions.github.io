@@ -152,4 +152,8 @@ FRU: 03X6656 at \[[link](http://support.lenovo.com/us/en/solutions/pd028014)\] 4
 
 ThinkPad T460 Hardware Maintenance Manual at \[[link](http://download.lenovo.com/pccbbs/mobiles_pdf/t460_hmm_en_sp40k04896_03.pdf)\]
 
+ThinkPad T460 System Service Parts at \[[link](https://support.lenovo.com/us/en/solutions/pd104027-system-service-parts-thinkpad-t460)\]
+
+Order parts at \[[link](https://pcsupport.lenovo.com/my/ms/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t460/20fn/parts/display/compatible)\]
+
 ThinkPad graphic if from a screen shot of the first page of the ThinkPad T460 Hardware Maintenance Manual at \[[link](http://download.lenovo.com/pccbbs/mobiles_pdf/t460_hmm_en_sp40k04896_03.pdf)\]
