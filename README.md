@@ -1,6 +1,6 @@
-# Zynq UltraScale+ & Versal Experts for Embedded and FPGA Development
+# Embedded Systems and FPGA Experts
 
-Get specialized engineering support for **AMD Zynq™ UltraScale+™ MPSoC**, and **Versal™** and other **adaptive SoC platforms** — from board bring-up to Linux®, drivers, and programmable logic design.
+Get your board working — from board bring-up to Linux®, drivers, and programmable logic design.
 
 📞 [720-912-6065](tel:720-912-6065)  &#124;  📝 [Request Support](/contact/)  &#124;  ✉️  [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
 
@@ -8,15 +8,15 @@ Get specialized engineering support for **AMD Zynq™ UltraScale+™ MPSoC**, an
 
 ## Why Choose Centennial Software Solutions®
 
-* **Zynq & Versal Expertise** – We solve complex issues across the AMD adaptive computing ecosystem daily.
-* **Documented Solutions** – Every fix and workflow is fully documented for your team to reuse and extend.
-* **Flexible Consulting** – Ad-hoc or project-based support, no long-term commitments required.
+* **Extensive SoC and FPGA Expertise**
+* **Consistent Documentation and Updates**
+* **Per Hour Consulting**
 
 ---
 
 ## What We Offer
 
-* **FPGA & SoC Development** – Board bring-up, hardware debugging, bitstream validation, and IP integration
+* **SoC & FPGA Development** – Board bring-up, hardware debugging, bitstream validation, and IP integration
 * **Embedded Linux & Yocto®** – Custom builds, BSP configuration, and system optimization
 * **Device Drivers & Middleware** – Low-level software for PS-PL communication and peripheral enablement
 * **Versal adaptive SoC Design Services** – AI Engine, NoC, and programmable logic development
