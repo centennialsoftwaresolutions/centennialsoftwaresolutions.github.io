@@ -9,7 +9,7 @@ Get your board working now! — Get edge AI working, finish bring-up, build a dr
 1. [Call](tel:720-912-6065), fill out our [form](/contact/), or [email us](mailto:help@centennialsoft.com?subject=Support%20Request) with your needs.
 2. We schedule a short, no-obligation discovery call.
 3. If we can help we'll suggest the number of hours to buy.
-4. You'll send a purchase order (PO) for the number of hours you'd like.
+4. After agreements are signed, you'll send a purchase order (PO) for the number of hours you'd like.
 5. After accepting the PO, we'll begin work. We'll bill you Net-30 for actual hours used.
 
 ---
