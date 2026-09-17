@@ -5,7 +5,7 @@ plugins:
  - jekyll-redirect-from
  - jekyll-sitemap
 title: Centennial Software Solutions® LLC
-description: ASAP Edge AI, Embedded Systems and FPGA Support.
+description: ASAP Edge AI, Embedded Systems and FPGA Help.
 email: help@centennialsoft.com
 url: "https://www.centennialsoftwaresolutions.com"
 show_downloads: false
