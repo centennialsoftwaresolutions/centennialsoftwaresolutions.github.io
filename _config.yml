@@ -5,7 +5,7 @@ plugins:
  - jekyll-redirect-from
  - jekyll-sitemap
 title: Centennial Software Solutions® LLC
-description: Expert consulting for AMD Zynq™ UltraScale+™, Versal™, and adaptive SoC platforms.
+description: ASAP Edge AI, Embedded Systems and FPGA Support.
 email: help@centennialsoft.com
 url: "https://www.centennialsoft.com"
 show_downloads: false
