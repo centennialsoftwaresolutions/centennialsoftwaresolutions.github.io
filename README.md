@@ -1,6 +1,6 @@
-# Embedded Systems and FPGA Experts
+# ASAP Embedded Systems and FPGA Support
 
-Get your board working — from board bring-up to Linux®, drivers, and programmable logic design.
+Get your board working now! — finish bring-up, build a driver, create and test RTL.
 
 📞 [720-912-6065](tel:720-912-6065)  &#124;  📝 [Request Support](/contact/)  &#124;  ✉️  [help@centennialsoft.com](mailto:help@centennialsoft.com?subject=Support%20Request)
 
@@ -10,11 +10,11 @@ Get your board working — from board bring-up to Linux®, drivers, and programm
 
 * **Extensive SoC and FPGA Expertise**
 * **Consistent Documentation and Updates**
-* **Per Hour Consulting**
+* **Per Hour Fee**
 
 ---
 
-## What We Offer
+## What we Can Do
 
 * **SoC & FPGA Development** – Board bring-up, hardware debugging, bitstream validation, and IP integration
 * **Embedded Linux & Yocto®** – Custom builds, BSP configuration, and system optimization
