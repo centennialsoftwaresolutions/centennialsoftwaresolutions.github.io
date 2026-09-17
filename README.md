@@ -8,6 +8,7 @@ Get your board working now! — finish bring-up, build a driver, create and test
 
 ## Why Choose Centennial Software Solutions®
 
+* **Live Human Support**
 * **Extensive SoC and FPGA Expertise**
 * **Consistent Documentation and Updates**
 * **Per Hour Fee**
