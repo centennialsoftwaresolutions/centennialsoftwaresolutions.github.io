@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Help
+title: HOWTOs
 ---
 
 <!-- Search UI -->
@@ -81,7 +81,7 @@ title: Help
 })();
 </script>
 
-# Help
+# HOWTOs
 
 <ul>
   {% assign pages_alpha = site.html_pages | where_exp: "p", "p.url contains '/help/'" | sort: "url" %}
