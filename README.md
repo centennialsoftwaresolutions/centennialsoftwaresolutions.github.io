@@ -1,6 +1,6 @@
 # ASAP Edge AI, Embedded System and FPGA Engineering
 
-## Get your board working now. Finish bring-up, develop a driver, deploy edge AI, and validate your RTL.
+## Get your board working now. We'll help you finish bring-up, develop device drivers, optimize edge AI, and validate RTL.
 
 ---
 
