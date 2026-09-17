@@ -1,6 +1,6 @@
-# ASAP Edge AI, Embedded System and FPGA Help
+# ASAP Edge AI, Embedded System and FPGA Engineering
 
-Get your board working now! — Get edge AI working, finish bring-up, build a driver, create and test RTL.
+## Get your board working now. Finish bring-up, develop a driver, deploy edge AI, and validate your RTL.
 
 ---
 
@@ -19,11 +19,11 @@ Get your board working now! — Get edge AI working, finish bring-up, build a dr
 * **ASAP Live Support from an Engineer in the U.S.**
 * **Extensive SoC and FPGA Expertise**
 * **Consistent Documentation and Updates**
-* **Per Hour Fee**
+* **Pay-As-You-Go Hourly Billing**
 
 ---
 
-## What we Can Do
+## Core Capabilities
 
 * **Edge AI Debug and Development** – Model training, inference, data-flow design and debug  
 * **Software & HDL Engineering** – Expert-level **C/C++**, **Verilog**, **VHDL**, and **Python** development
