@@ -1,4 +1,4 @@
-# ASAP Edge AI, Embedded System and FPGA
+# ASAP Edge AI, Embedded System and FPGA Help
 
 Get your board working now! — Get edge AI working, finish bring-up, build a driver, create and test RTL.
 
