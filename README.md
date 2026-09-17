@@ -26,7 +26,7 @@ Get your board working — from board bring-up to Linux®, drivers, and programm
 
 ### Start Your Project Today
 
-Whether you need **quick debugging help**, **Yocto customization**, or **end-to-end Versal system development**, we provide fast, reliable, and repeatable solutions.
+Whether you need **quick debugging help**, **Yocto customization**, or **end-to-end system development**, we provide fast, reliable, and repeatable solutions.
 Contact us to get expert support that accelerates your embedded and FPGA projects.
 
 📞 [720-912-6065](tel:720-912-6065)  &#124;  [Get Started →](/contact/)
