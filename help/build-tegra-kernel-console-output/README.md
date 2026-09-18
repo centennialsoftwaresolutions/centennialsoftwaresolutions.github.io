@@ -32,7 +32,7 @@ cp kernel/kernel-noble/arch/arm64/boot/Image /home/demo-user/Downloads/Linux_for
 ```
 output: [sudo_-E_make_install_-C_kernel.out](sudo_-E_make_install_-C_kernel.out)
 
-## Make output tree modules
+## Make out of tree modules
 ```
 demo-user@demo:~/Downloads/Linux_for_Tegra/source$ 
 
@@ -42,3 +42,18 @@ export kernel_name=noble
 make modules
 ```
 output: [make_modules.out](make_modules.out)
+
+## Install out of tree modules
+```
+demo-user@demo:~/Downloads/Linux_for_Tegra/source$ 
+
+export CROSS_COMPILE=$HOME/l4t-gcc/x-tools/aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
+export KERNEL_HEADERS=$PWD/kernel/kernel-noble
+export kernel_name=noble
+make modules
+export INSTALL_MOD_PATH=/home/demo-user/Downloads/Linux_for_Tegra/rootfs
+sudo -E make modules_install
+cd ~/Downloads/Linux_for_Tegra
+sudo ./tools/l4t_update_initrd.sh
+```
+output: [sudo_-E_make_modules_install.out](sudo_-E_make_modules_install.out)
