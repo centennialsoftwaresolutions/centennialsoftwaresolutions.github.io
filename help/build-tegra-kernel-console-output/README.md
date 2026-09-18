@@ -1,0 +1,1 @@
+Console output after building:  
