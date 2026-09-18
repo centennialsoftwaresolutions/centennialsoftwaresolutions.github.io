@@ -1,0 +1,512 @@
+Script started on 2026-09-17 19:31:41-06:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="175" LINES="79"]
+[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra/source[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra/source[00m$ [7mexport INSTALL_MOD_PATH=/home/demo-user/Downloads/Linux_for_Tegra/rootfs[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport INSTALL_MOD_PATH=/home/demo-user/Downloads/Linux_for_Tegra/rootfs
+[?2004l[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra/source[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra/source[00m$ [7msudo -E make modules_install[27msudo -E make modules_install
+[?2004l[sudo] password for demo-user: 
+================================================================================
+make modules_install - hwpm ...
+================================================================================
+make -j16 ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble \
+	M=/home/demo-user/Downloads/Linux_for_Tegra/source/hwpm/drivers/tegra/hwpm \
+	CONFIG_TEGRA_OOT_MODULE=m \
+	srctree.hwpm=/home/demo-user/Downloads/Linux_for_Tegra/source/hwpm \
+	srctree.nvconftest=/home/demo-user/Downloads/Linux_for_Tegra/source/out/nvidia-conftest \
+	modules_install
+make[1]: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/nvhwpm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/nvhwpm.ko
+  DEPMOD  /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-pcie-dma-test.ko needs unknown symbol tegra_pcie_dma_stop
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-pcie-dma-test.ko needs unknown symbol tegra_pcie_dma_set_msi
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-pcie-dma-test.ko needs unknown symbol tegra_pcie_dma_initialize
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-pcie-dma-test.ko needs unknown symbol tegra_pcie_dma_submit_xfer
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-pcie-dma-test.ko needs unknown symbol tegra_pcie_dma_deinit
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-dma-test.ko needs unknown symbol tegra_pcie_dma_stop
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-dma-test.ko needs unknown symbol tegra_pcie_dma_set_msi
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-dma-test.ko needs unknown symbol tegra_pcie_dma_initialize
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-dma-test.ko needs unknown symbol tegra_pcie_dma_submit_xfer
+depmod: WARNING: /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-dma-test.ko needs unknown symbol tegra_pcie_dma_deinit
+make[1]: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+================================================================================
+make modules_install - nvidia-oot ...
+================================================================================
+make -j16 ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble \
+	M=/home/demo-user/Downloads/Linux_for_Tegra/source/nvidia-oot \
+	CONFIG_TEGRA_OOT_MODULE=m \
+	srctree.nvidia-oot=/home/demo-user/Downloads/Linux_for_Tegra/source/nvidia-oot \
+	srctree.hwpm=/home/demo-user/Downloads/Linux_for_Tegra/source/hwpm \
+	srctree.nvconftest=/home/demo-user/Downloads/Linux_for_Tegra/source/out/nvidia-conftest \
+	kernel_name=noble \
+	system_type=l4t \
+	KBUILD_EXTRA_SYMBOLS=/home/demo-user/Downloads/Linux_for_Tegra/source/hwpm/drivers/tegra/hwpm/Module.symvers \
+	modules_install
+make[1]: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_virt_storage/tegra_vblk.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_oops_virt_storage/tegra_hv_vblk_oops.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/bluetooth/realtek/rtk_btusb.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra/tegra-se.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra/tegra-se-kds.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra-se-nvrng.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_virt_storage/tegra_vblk.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_oops_virt_storage/tegra_hv_vblk_oops.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/bluetooth/realtek/rtk_btusb.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/devfreq/tegra_wmark.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra/tegra-se.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra/tegra-se-kds.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/devfreq/governor_pod_scaling.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra-se-nvrng.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/firmware/tegra/ivc_ext.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/drm/tegra/tegra-drm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/devfreq/tegra_wmark.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x/host1x.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/devfreq/governor_pod_scaling.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/firmware/tegra/ivc_ext.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x-fence/host1x-fence.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x-nvhost/host1x-nvhost.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/power/tegra/nv-gpu-static-pg.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/hwmon/f75308.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/i2c/busses/i2c-nvvrs11.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/drm/tegra/tegra-drm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x-fence/host1x-fence.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x-nvhost/host1x-nvhost.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/power/tegra/nv-gpu-static-pg.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x/host1x.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/i2c/busses/i2c-tegra-slave-byte.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/hwmon/f75308.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/i2c/busses/i2c-nvvrs11.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/mfd/nvidia-vrs-pseq.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/bmi088/bmi088.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/i2c/busses/i2c-tegra-slave-byte.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/mfd/nvidia-vrs-pseq.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/tegra264-mc-hwpm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/bmi088/bmi088.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/smmu-hwpm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/nvsciipc/nvsciipc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-pcie-dma-test.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/nvidia/pcie/tegra_vnet.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/tegra264-mc-hwpm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/smmu-hwpm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/nvidia/nvethernet/nvethernet.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-pcie-dma-test.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/nvidia/pcie/tegra_vnet.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8168/r8168.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8126/r8126.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/nvsciipc/nvsciipc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/can/mttcan/mttcan.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/wireless/realtek/rtl8822ce/rtl8822ce.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/wireless/realtek/rtl8852ce/rtl8852ce.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8126/r8126.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/can/mttcan/mttcan.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/nvidia/nvethernet/nvethernet.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvpps/nvpps.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvpmodel/nvpmodel-clk-cap.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8168/r8168.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvpps/nvpps.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nv-p2p/nvidia-p2p.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra264.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-dma-test.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvpmodel/nvpmodel-clk-cap.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-tegra-vnet.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/wireless/realtek/rtl8822ce/rtl8822ce.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/tty/serial/wch_35x/wch.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nv-p2p/nvidia-p2p.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra264.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-dma-test.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/endpoint/functions/pci-epf-tegra-vnet.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-cactmon-mc-all.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/wireless/realtek/rtl8852ce/rtl8852ce.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/tty/serial/wch_35x/wch.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-bpmp-bwmgr.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-fsicom.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-cactmon-mc-all.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-bpmp-bwmgr.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/mce/tegra-mce.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-fsicom.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/uncore_pmu/tegra23x_perf_uncore.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/mc-hwpm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/mce/tegra-mce.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/mc-utils/mc-utils.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/dce/tegra-dce.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/psc/tegra23x_psc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/uncore_pmu/tegra23x_perf_uncore.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/mc-hwpm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/capture-ivc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/mc-utils/mc-utils.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/ivc-bus.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/dce/tegra-dce.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/camchar.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/psc/tegra23x_psc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/camera-diagnostics.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/rtcpu-debug.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/camchar.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/rtcpu-debug.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/capture-ivc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/hsp-mailbox-client.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/camera-diagnostics.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/ivc-bus.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/tegra-camera-rtcpu.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/aon/tegra234-aon.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/aon/tegra-aon-ivc-echo.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/tegra-camera-rtcpu.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/aon/tegra234-aon.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pwm/pwm-tegra-tachometer.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/rtc/nvvrs-pseq-rtc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/aon/tegra-aon-ivc-echo.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/scsi/ufs/ufs-tegra.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/rtcpu/hsp-mailbox-client.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/scsi/ufs/ufs-tegra-provision.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/rtc/nvvrs-pseq-rtc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/spi/spi-tegra124-slave.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/tegra234-oc-event.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/scsi/ufs/ufs-tegra.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/scsi/ufs/ufs-tegra-provision.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/spi/spi-tegra124-slave.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pwm/pwm-tegra-tachometer.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/thermal-trip-event.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/tegra234-oc-event.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/nvmap/nvmap.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/nvdla/nvhost-nvdla.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/thermal-trip-event.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/nvmap/nvmap.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/nvdla/nvhost-nvdla.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/pva/nvhost-pva.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/tsec/tsecriscv.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/maxim_gmsl_dp_serializer.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/ti_fpdlink_dp_serializer.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/camera/tegra_camera_platform.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/tsec/tsecriscv.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/maxim_gmsl_dp_serializer.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/ti_fpdlink_dp_serializer.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/pva/nvhost-pva.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/capture/nvhost-capture.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/nvcsi/nvhost-nvcsi.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/camera/tegra_camera_platform.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/vi/nvhost-vi5.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/capture/nvhost-capture.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/isp/nvhost-isp5.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/nvcsi/nvhost-nvcsi.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/vi/nvhost-vi5.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/tegra_hv.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/ivc-cdev.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/host/isp/nvhost-isp5.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max9295.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/tegra_hv.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max9296.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/ivc-cdev.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max96712.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max9295.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/ar1335_common.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max9296.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/lt6911uxc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max96712.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx185.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/ar1335_common.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx219.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx274.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/lt6911uxc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx318.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx185.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx219.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx274.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx318.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx390.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx477.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_ov5693.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_ar0234.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_hawk_owl.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx390.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max929x.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_imx477.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_ov5693.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_ar0234.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/max929x.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/nv_hawk_owl.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/pca9570.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/virtual_i2c_mux.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_gpio.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_mgr.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/pca9570.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/i2c/virtual_i2c_mux.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_dev.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_pwm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cam_cdi_tsc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_mgr.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_dev.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tegra-camera.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tegra-capture-isp.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_gpio.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cdi_pwm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cdi/cam_cdi_tsc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tegra-capture-isp.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tegra-camera.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tegra-capture-coe.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cam_fsync/cam_fsync.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/usb/typec/fusb301.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra-utils.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tegra-capture-coe.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra210-afc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/cam_fsync/cam_fsync.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/usb/typec/fusb301.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra210-iqc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra186-arad.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra210-afc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra-controls.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra210-iqc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra186-arad.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_oops_nvlog/tegra_oops_nvlog.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra-utils.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/bus/tegra-aocluster.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra-controls.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/cpuidle/cpuidle-tegra-auto.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/cpuidle/cpuidle-debugfs.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_oops_nvlog/tegra_oops_nvlog.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra-hv-vse-safety.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/bus/tegra-aocluster.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra-nvvse-cryptodev.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/firmware/tegra/tegra_bpmp.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/cpuidle/cpuidle-tegra-auto.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra-hv-vse-safety.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpio/gpio-max77851.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x-emu/host1x-emu.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/crypto/tegra-nvvse-cryptodev.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/firmware/tegra/tegra_bpmp.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/mfd/max77851.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/mc-t26x.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/cpuidle/cpuidle-debugfs.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpio/gpio-max77851.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/gpu/host1x-emu/host1x-emu.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/mfd/max77851.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/mc-t26x.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/mem-qual.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/mtd/devices/tegra_hv_mtd.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/mods/mods.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/bluedroid_pm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/nvscic2c-pcie/nvscic2c-pcie-epc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/memory/tegra/mem-qual.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/mtd/devices/tegra_hv_mtd.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/nvscic2c-pcie/nvscic2c-pcie-epf.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/mods/mods.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/bluedroid_pm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/nvscic2c-pcie/nvscic2c-pcie-epc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/ioctl_example.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-cec/tegra_cec.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/nvscic2c-pcie/nvscic2c-pcie-epf.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/marvell/oak/oak_pci.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/microchip/lan743x.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/ioctl_example.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/tegra_hv_net.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/misc/tegra-cec/tegra_cec.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/nv_vsock_transport.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/marvell/oak/oak_pci.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/microchip/lan743x.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/tegra_hv_net.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvtzvault/nvtzvault.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvtzvault/nvtzvault-soc-comms.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/net/nv_vsock_transport.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra-vf.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra264-ep.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/tegra-pcie-dma-lib.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvtzvault/nvtzvault.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nvtzvault/nvtzvault-soc-comms.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra-vf.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/tty/serial/tegra_hv_comm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pinctrl/pinctrl-tegra194-pexclk-padctrl.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra264-ep.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/tegra-pcie-dma-lib.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/tty/serial/tegra_hv_comm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pinctrl/pinctrl-tegra234-dpaux.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pinctrl/pinctrl-tegra194-pexclk-padctrl.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pinctrl/pinctrl-max77851.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-bootloader-debug/tegra-bootloader-debug.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-uss-io-proxy.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/nvadsp/nvadsp.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pinctrl/pinctrl-tegra234-dpaux.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/pinctrl/pinctrl-max77851.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-hv-xhci-debug.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-bootloader-debug/tegra-bootloader-debug.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-hv-xhci.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/power/reset/max77851-poweroff.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/ras/arm64-ras.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-uss-io-proxy.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/nvadsp/nvadsp.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-hv-xhci-debug.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/platform/tegra/tegra-hv-xhci.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/power/reset/max77851-poweroff.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/ras/arm64-ras.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/regulator/max77851-regulator.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/rtc/rtc-max77851.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/soc/tegra/fuse/kfuse.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/regulator/max77851-regulator.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/spi/spi-aurix-tegra.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/pex9749-thermal.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/rtc/rtc-max77851.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/soc/tegra/fuse/kfuse.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/spi/spi-aurix-tegra.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/pex9749-thermal.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/watchdog/softdog-platform.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/max77851_thermal.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/watchdog/watchdog-tegra-t18x.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/watchdog/max77851_wdt.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/watchdog/softdog-platform.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/thermal/max77851_thermal.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/watchdog/watchdog-tegra-t18x.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/maxim_gmsl_hdmi_serializer.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/nvdisp_serdes.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/virt/tegra_gr_comm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/tegra_hv_pm_ctl.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/watchdog/max77851_wdt.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/maxim_gmsl_hdmi_serializer.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/dc/bridge/nvdisp_serdes.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/video/tegra/virt/tegra_gr_comm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/tegra_hv_pm_ctl.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/userspace_ivc_mempool.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/tegra_hv_vcpu_yield.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/ivc_sample_server/tegra_hv_sysfs_sample_server.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/tpg/nvhost-vi-tpg-t19x.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_gpio.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_mgr.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/userspace_ivc_mempool.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/virt/tegra/tegra_hv_vcpu_yield.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/ivc_sample_server/tegra_hv_sysfs_sample_server.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/tpg/nvhost-vi-tpg-t19x.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_dev.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_gpio.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_pwm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_mgr.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tests/utils/tegracam_log.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_dev.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tests/sensor_kernel_tests.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/isc/isc_pwm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nv-virtio/nv-virtio-console-poc.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra210-adsp.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/tegra-safety-audio/safety-i2s.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tests/utils/tegracam_log.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra-virt-alt/snd-soc-tegra210-virt-alt-admaif.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/media/platform/tegra/camera/tests/sensor_kernel_tests.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/drivers/nv-virtio/nv-virtio-console-poc.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra/snd-soc-tegra210-adsp.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/tegra-safety-audio/safety-i2s.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra-virt-alt/snd-soc-tegra-virt-t210ref-pcm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra-virt-alt/snd-soc-tegra210-virt-alt-adsp.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra-virt-alt/snd-soc-tegra210-virt-alt-admaif.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra-virt-alt/snd-soc-tegra-virt-t210ref-pcm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/sound/soc/tegra-virt-alt/snd-soc-tegra210-virt-alt-adsp.ko
+  DEPMOD  /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra
+make[1]: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+if [ ! -d "/home/demo-user/Downloads/Linux_for_Tegra/source/nvgpu" ] ; then \
+	echo "Directory nvgpu is not found, exiting.."; \
+	false; \
+fi
+================================================================================
+make modules_install - nvgpu ...
+================================================================================
+make -j16 ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble \
+	M=/home/demo-user/Downloads/Linux_for_Tegra/source/nvgpu/drivers/gpu/nvgpu \
+	CONFIG_TEGRA_OOT_MODULE=m \
+	srctree.nvidia=/home/demo-user/Downloads/Linux_for_Tegra/source/nvidia-oot \
+	srctree.nvidia-oot=/home/demo-user/Downloads/Linux_for_Tegra/source/nvidia-oot \
+	srctree.nvconftest=/home/demo-user/Downloads/Linux_for_Tegra/source/out/nvidia-conftest \
+	KBUILD_EXTRA_SYMBOLS=/home/demo-user/Downloads/Linux_for_Tegra/source/nvidia-oot/Module.symvers \
+	modules_install
+make[1]: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/nvgpu.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/nvgpu.ko
+  DEPMOD  /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra
+make[1]: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+================================================================================
+make modules_install - nvidia-display ...
+================================================================================
+make -C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble INSTALL_MOD_DIR=updates/opensrc-disp \
+	M=/home/demo-user/Downloads/Linux_for_Tegra/source/nvdisplay/kernel-open modules_install
+make[1]: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensrc-disp/nvidia.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensrc-disp/nvidia.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensrc-disp/nvidia-modeset.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensrc-disp/nvidia-modeset.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensrc-disp/nvidia-drm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensrc-disp/nvidia-drm.ko
+  DEPMOD  /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra
+make[1]: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+================================================================================
+make modules_install - nvidia-gpu-display ...
+================================================================================
+make -C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble INSTALL_MOD_DIR=updates/opensource-gpu-disp \
+	M=/home/demo-user/Downloads/Linux_for_Tegra/source/unifiedgpudisp/kernel-open modules_install
+make[1]: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia-uvm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia-uvm.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia-modeset.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia-modeset.ko
+  INSTALL /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia-drm.ko
+  SIGN    /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra/updates/opensource-gpu-disp/nvidia-drm.ko
+  DEPMOD  /home/demo-user/Downloads/Linux_for_Tegra/rootfs/lib/modules/6.8.12-1021-tegra
+make[1]: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra/source[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra/source[00m$ [7mcd ~/Downloads/Linux_for_Tegra[27mcd ~/Downloads/Linux_for_Tegra
+[?2004l[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra[00m$ [7msudo ./tools/l4t_update_initrd.sh[27msudo ./tools/l4t_update_initrd.sh
+[?2004lUsing L4T_DIR to /home/demo-user/Downloads/Linux_for_Tegra
+Using rootfs directory: /home/demo-user/Downloads/Linux_for_Tegra/rootfs
+Updating the initrd: /home/demo-user/Downloads/Linux_for_Tegra/bootloader/l4t_initrd.img
+Copy /home/demo-user/Downloads/Linux_for_Tegra/bootloader/l4t_initrd.img to /home/demo-user/Downloads/Linux_for_Tegra/rootfs/boot/initrd
+Preparing virtual env
+Create the temporary directory /tmp/tmp.BpmtOoKv5T for initrd contents. The files will be added later
+Including /etc/nv-update-initrd/list.d/binlist
+Including /etc/nv-update-initrd/list.d/disable_initrd_bash
+Including /etc/nv-update-initrd/list.d/modules_k6.8
+nv-update-initrd: Updating /boot/initrd from /etc/nv-update-initrd/list.d for kernel image /boot/Image and version 6.8.12-1021-tegra
+Add /usr/sbin/nvluks-srv-app to /tmp/tmp.BpmtOoKv5T//usr/sbin/nvluks-srv-app
+Add /lib/modules/6.8.12-1021-tegra/modules* to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/nvidia/nvethernet/nvethernet.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/nvidia/nvethernet/nvethernet.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/nvpps/nvpps.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/nvpps/nvpps.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8126/r8126.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8126/r8126.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8168/r8168.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/net/ethernet/realtek/r8168/r8168.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/usb/typec/fusb301.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/usb/typec/fusb301.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/nvme/host/nvme.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/nvme/host/nvme.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/nvme/host/nvme-core.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/nvme/host/nvme-core.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/pci/controller/dwc/pcie-tegra194.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/pci/controller/dwc/pcie-tegra194.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/phy/tegra/phy-tegra194-p2u.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/phy/tegra/phy-tegra194-p2u.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/gadget/udc/tegra-xudc.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/gadget/udc/tegra-xudc.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/typec/ucsi/typec_ucsi.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/typec/ucsi/typec_ucsi.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/typec/ucsi/ucsi_ccg.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/typec/ucsi/ucsi_ccg.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/typec/typec.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/typec/typec.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/storage/uas.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/usb/storage/uas.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/thermal/tegra/tegra-bpmp-thermal.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/thermal/tegra/tegra-bpmp-thermal.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/pwm/pwm-tegra.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/pwm/pwm-tegra.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/hwmon/pwm-fan.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/hwmon/pwm-fan.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/scsi/ufs/ufs-tegra.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/scsi/ufs/ufs-tegra.ko
+Add /lib/modules/6.8.12-1021-tegra/kernel/drivers/net/usb/r8152.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/kernel/drivers/net/usb/r8152.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra264.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/pci/controller/pcie-tegra264.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_virt_storage/tegra_vblk.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_virt_storage/tegra_vblk.ko
+Add /lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_oops_virt_storage/tegra_hv_vblk_oops.ko to /tmp/tmp.BpmtOoKv5T//lib/modules/6.8.12-1021-tegra/updates/drivers/block/tegra_oops_virt_storage/tegra_hv_vblk_oops.ko
+WARNING: File /etc/.disable_initrd_bash is not present in initrd. This is appropriate for development but must be packed for production!
+Updating modprobe.d configuration directories for modprobe..
+Add config /etc/modprobe.d/alsa-base.conf
+Add config /etc/modprobe.d/blacklist-ath_pci.conf
+Add config /etc/modprobe.d/blacklist-firewire.conf
+Add config /etc/modprobe.d/blacklist-framebuffer.conf
+Add config /etc/modprobe.d/blacklist-modem.conf
+Add config-link /etc/modprobe.d/blacklist-oss.conf
+Add config /etc/modprobe.d/blacklist-rare-network.conf
+Add config /etc/modprobe.d/blacklist.conf
+Add config /etc/modprobe.d/denylist-nouveau.conf
+Add config /etc/modprobe.d/denylist-oot-modules.conf
+Add config /etc/modprobe.d/denylist-tpm-ftpm-tee.conf
+Add config /etc/modprobe.d/disable-algif_aead.conf
+Add config /etc/modprobe.d/iwlwifi.conf
+Add config /etc/modprobe.d/nvgpu.conf
+Add config /etc/modprobe.d/nvidia-preferred-oot-modules.conf
+Add config /lib/modprobe.d/aliases.conf
+Add config /lib/modprobe.d/fbdev-blacklist.conf
+Add config /lib/modprobe.d/systemd.conf
+Cleaning up the temporary directory for updating the initrd..
+nv-update-initrd successful!
+Cleaning up virtual env
+Update /home/demo-user/Downloads/Linux_for_Tegra/rootfs/boot/initrd back to /home/demo-user/Downloads/Linux_for_Tegra/bootloader/l4t_initrd.img
+l4t_update_initrd.sh success!
+[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra[00m$ exit
+[?2004lexit
+
+Script done on 2026-09-17 19:33:01-06:00 [COMMAND_EXIT_CODE="0"]
