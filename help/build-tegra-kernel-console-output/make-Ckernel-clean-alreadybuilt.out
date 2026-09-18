@@ -1,0 +1,47 @@
+Script started on 2026-09-17 18:55:12-06:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="175" LINES="79"]
+[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra/source[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra/source[00m$ exitmake -C kernel clean
+[?2004lmake: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel'
+================================================================================
+Cleaning kernel-noble sources
+================================================================================
+make \
+	ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble  \
+	mrproper
+make[1]: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+  CLEAN   arch/arm64/boot
+  CLEAN   arch/arm64/crypto
+  CLEAN   arch/arm64/kernel/pi
+  CLEAN   arch/arm64/kernel/vdso
+  CLEAN   arch/arm64/kernel
+  CLEAN   arch/arm64/kvm/hyp/nvhe
+  CLEAN   arch/arm64/kvm
+  CLEAN   certs
+  CLEAN   drivers/firmware/efi/libstub
+  CLEAN   drivers/scsi
+  CLEAN   drivers/tty/vt
+  CLEAN   init
+  CLEAN   kernel
+  CLEAN   lib/raid6
+  CLEAN   lib
+  CLEAN   net/wireless
+  CLEAN   security/apparmor
+  CLEAN   usr
+  CLEAN   .
+  CLEAN   vmlinux.symvers modules.builtin modules.builtin.modinfo .vmlinux.objs .vmlinux.export.c
+  CLEAN   scripts/basic
+  CLEAN   scripts/dtc
+  CLEAN   scripts/genksyms
+  CLEAN   scripts/kconfig
+  CLEAN   scripts/mod
+  CLEAN   scripts
+  CLEAN   include/config include/generated arch/arm64/include/generated .config .version Module.symvers certs/signing_key.pem certs/x509.genkey
+make[1]: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+================================================================================
+Kernel and in-tree modules installed successfully.
+================================================================================
+make: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel'
+[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra/source[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra/source[00m$ exit
+[?2004lexit
+
+Script done on 2026-09-17 18:55:24-06:00 [COMMAND_EXIT_CODE="0"]
