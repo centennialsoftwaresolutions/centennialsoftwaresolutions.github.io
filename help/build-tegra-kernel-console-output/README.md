@@ -41,4 +41,4 @@ export KERNEL_HEADERS=$PWD/kernel/kernel-noble
 export kernel_name=noble
 make modules
 ```
-output: [make_modules.out](make modules.out)
+output: [make_modules.out](make_modules.out)
