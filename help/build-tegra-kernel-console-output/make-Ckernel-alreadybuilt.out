@@ -1,0 +1,43 @@
+Script started on 2026-09-17 18:45:25-06:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="175" LINES="79"]
+[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra/source[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra/source[00m$ make -C kernel
+[?2004lmake: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel'
+================================================================================
+Building kernel-noble sources
+================================================================================
+make \
+	ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble  \
+	LOCALVERSION=-1021-tegra \
+	defconfig
+make[1]: Entering directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+*** Default configuration is based on 'defconfig'
+#
+# No change to .config
+#
+make[1]: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble'
+make -j 16 \
+	ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble  \
+	LOCALVERSION=-1021-tegra \
+	--output-sync=target Image
+  CALL    scripts/checksyscalls.sh
+make -j 16 \
+	ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble  \
+	LOCALVERSION=-1021-tegra \
+	--output-sync=target dtbs
+make -j 16 \
+	ARCH=arm64 \
+	-C /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble  \
+	LOCALVERSION=-1021-tegra \
+	--output-sync=target modules
+  CALL    scripts/checksyscalls.sh
+================================================================================
+Kernel Image: /home/demo-user/Downloads/Linux_for_Tegra/source/kernel/kernel-noble/arch/arm64/boot/Image
+Kernel sources compiled successfully.
+================================================================================
+make: Leaving directory '/home/demo-user/Downloads/Linux_for_Tegra/source/kernel'
+[?2004h]0;demo-user@demo: ~/Downloads/Linux_for_Tegra/source[01;32mdemo-user@demo[00m:[01;34m~/Downloads/Linux_for_Tegra/source[00m$ exit
+[?2004lexit
+
+Script done on 2026-09-17 18:45:45-06:00 [COMMAND_EXIT_CODE="0"]
