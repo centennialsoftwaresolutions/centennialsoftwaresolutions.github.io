@@ -57,3 +57,17 @@ cd ~/Downloads/Linux_for_Tegra
 sudo ./tools/l4t_update_initrd.sh
 ```
 output: [sudo_-E_make_modules_install.out](sudo_-E_make_modules_install.out)
+
+## Make DTBs
+```
+export CROSS_COMPILE=$HOME/l4t-gcc/x-tools/aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
+export KERNEL_HEADERS=$PWD/kernel/kernel-noble
+make dtbs
+```
+output: [make_dtbs.out](make_dtbs.out)
+
+## Install DTBs
+```
+cp build/nvidia-public/devicetree/generic-dtbs/* /home/demo-user/Downloads/Linux_for_Tegra/kernel/dtb/
+```
+No output.
