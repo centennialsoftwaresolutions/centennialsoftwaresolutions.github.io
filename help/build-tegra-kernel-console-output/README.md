@@ -31,3 +31,14 @@ sudo -E make install -C kernel
 cp kernel/kernel-noble/arch/arm64/boot/Image /home/demo-user/Downloads/Linux_for_Tegra/kernel/Image
 ```
 output: [sudo_-E_make_install_-C_kernel.out](sudo_-E_make_install_-C_kernel.out)
+
+## Make output tree modules
+```
+demo-user@demo:~/Downloads/Linux_for_Tegra/source$ 
+
+export CROSS_COMPILE=$HOME/l4t-gcc/x-tools/aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
+export KERNEL_HEADERS=$PWD/kernel/kernel-noble
+export kernel_name=noble
+make modules
+```
+output: [make_modules.out](make modules.out)
